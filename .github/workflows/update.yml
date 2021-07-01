@@ -1,0 +1,33 @@
+name: Update spl-token-registry
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    name: Sync
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          cache: "yarn"
+      - run: yarn add @solana/spl-token-registry
+      - run: rm -r icons/
+      - run: yarn icons:fetch
+      - run: |
+          if [ $(git diff-index HEAD --) ]; then
+            echo "Change detected. Updating icons."
+            git config --local user.name "github-actions[bot]"
+            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "Update icons"
+            yarn build
+            yarn publish --patch
+          fi
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

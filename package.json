@@ -1,15 +1,30 @@
 {
-  "name": "@shipcap/spl-token-icons",
+  "name": "@saberhq/spl-token-icons",
   "version": "0.1.0",
   "description": "Token icons cached on GitHub",
+  "keywords": [
+    "solana",
+    "saber",
+    "token",
+    "crypto"
+  ],
+  "homepage": "https://github.com/saber-hq/spl-token-icons",
+  "bugs": {
+    "url": "https://github.com/saber-hq/spl-token-icons/issues",
+    "email": "ian@saber.so"
+  },
+  "license": "Apache-2.0",
+  "author": "Ian Macalinao <ian@saber.so>",
+  "funding": {
+    "type": "token",
+    "url": "https://ftx.com/trade/SOL/USD"
+  },
+  "repository": "github:saber-hq/spl-token-icons",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "repository": "git@github.com:saber-hq/spl-token-icons.git",
-  "author": "Ian Macalinao <ian@saber.so>",
-  "license": "Apache-2.0",
   "scripts": {
     "build": "rm -fr dist/ && tsc -P tsconfig.build.json && tsc -P tsconfig.esm.json",
-    "update": "ts-node scripts/update.ts"
+    "icons:fetch": "ts-node scripts/fetchIcons.ts"
   },
   "dependencies": {
     "@solana/spl-token-registry": "^0.2.158"
@@ -27,5 +42,8 @@
   "files": [
     "dist/",
     "src/"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

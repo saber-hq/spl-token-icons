@@ -18,7 +18,7 @@ const parts = token.logoURI.split(".");
 ```bash
 rm -r icons/
 yarn add @solana/spl-token-registry
-yarn update
+yarn icons:fetch
 ```
 
 ## License
