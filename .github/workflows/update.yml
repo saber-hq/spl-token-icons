@@ -16,19 +16,28 @@ jobs:
         with:
           node-version: "14"
           cache: "yarn"
-      - run: yarn add @solana/spl-token-registry
-      - run: rm -r icons/
+      - name: Authenticate with Github
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Update @solana/spl-token-registry
+        run: |
+          yarn add @solana/spl-token-registry
+          if [ $(git diff-index HEAD) != '' ]; then
+            git add .
+            git commit -m "Bump @solana/spl-token-registry"
+          fi
+      # note: icons may be stale if we don't force a refresh
+      # but this makes CI much faster
+      # - run: rm -r icons/
       - run: yarn icons:fetch
       - run: |
           if [ $(git diff-index HEAD) != '' ]; then
             echo "Change detected. Updating icons."
-            git config --local user.name "github-actions[bot]"
-            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add .
             CHANGES=$(git diff-index HEAD)
             git commit -m "Update $(echo $CHANGES | wc -l) icons
-
-              $CHANGES
+            $CHANGES
             "
             yarn build
             yarn publish --patch

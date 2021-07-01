@@ -58,7 +58,7 @@ const main = async () => {
           res.pipe(filePath);
           filePath.on("finish", () => {
             filePath.close();
-            console.log("Download Completed");
+            console.log(`Downloaded icon for ${token.name} (${token.address})`);
           });
         };
 
