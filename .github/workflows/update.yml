@@ -28,6 +28,7 @@ jobs:
             git commit -m "Update icons"
             yarn build
             yarn publish --patch
+            git push origin HEAD
           fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
