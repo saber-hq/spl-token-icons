@@ -9,7 +9,7 @@ const parts = token.logoURI.split(".");
 <img
   src={`https://cdn.jsdelivr.net/gh/saber-hq/spl-token-icons@master/icons/${
     token.chainId
-  }/${token.address}${parts[parts.length - 1] ?? ""}`}
+  }/${token.address}.${parts[parts.length - 1] ?? ""}`}
 />;
 ```
 

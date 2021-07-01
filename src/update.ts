@@ -12,6 +12,8 @@ import pLimit from "p-limit";
 import { URL } from "url";
 import { extname } from "path";
 
+process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0";
+
 const limit = pLimit(10);
 
 const main = async () => {
@@ -36,9 +38,14 @@ const main = async () => {
         const path = `${__dirname}/../icons/${token.chainId}/${
           token.address
         }${extname(url.pathname)}`;
-        if ((await stat(path)).isFile()) {
-          console.warn(`Skipping ${token.name}`);
+        try {
+          await stat(path);
+          // console.warn(`Skipping ${token.name}`);
           return;
+        } catch (e) {
+          if (!(e instanceof Error && e.message.includes("ENOENT"))) {
+            throw e;
+          }
         }
 
         const handleFile = (res: IncomingMessage) => {
