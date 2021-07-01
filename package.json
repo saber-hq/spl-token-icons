@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "Token icons cached on GitHub",
   "main": "index.js",
-  "repository": "git@github.com:shipcap/spl-token-icons.git",
-  "author": "Ian Macalinao <ian@ship.capital>",
+  "repository": "git@github.com:saber-hq/spl-token-icons.git",
+  "author": "Ian Macalinao <ian@saber.so>",
   "license": "MIT",
   "scripts": {
     "update": "ts-node src/update.ts"
