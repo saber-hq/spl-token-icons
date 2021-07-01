@@ -20,12 +20,16 @@ jobs:
       - run: rm -r icons/
       - run: yarn icons:fetch
       - run: |
-          if [ $(git diff-index HEAD --) ]; then
+          if [ $(git diff-index HEAD) != '' ]; then
             echo "Change detected. Updating icons."
             git config --local user.name "github-actions[bot]"
             git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add .
-            git commit -m "Update icons"
+            CHANGES=$(git diff-index HEAD)
+            git commit -m "Update $(echo $CHANGES | wc -l) icons
+
+              $CHANGES
+            "
             yarn build
             yarn publish --patch
             git push origin HEAD
