@@ -1,17 +1,18 @@
 {
   "compilerOptions": {
     "target": "ES2015",
-    "module": "commonjs",
+    "module": "CommonJS",
     "strict": true,
-    "strictFunctionTypes": true,
-    "noImplicitOverride": true,
     "esModuleInterop": true,
     "noUncheckedIndexedAccess": true,
-    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "moduleResolution": "node",
     "resolveJsonModule": true,
-    "lib": ["ES2019"],
-    "types": ["node", "mocha"]
+
+    "lib": ["ES2015"],
+    "noEmit": true
   },
-  "include": ["src/"]
+  "include": ["src/", "scripts/"]
 }

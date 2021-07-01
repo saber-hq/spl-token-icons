@@ -1,15 +1,12 @@
-import {
-  CLUSTER_SLUGS,
-  ENV,
-  TokenListProvider,
-} from "@solana/spl-token-registry";
-import { mkdir, stat } from "fs/promises";
-import * as fs from "fs";
+import { ENV, TokenListProvider } from "@solana/spl-token-registry";
+import { mkdir, stat, writeFile } from "fs/promises";
+import { createWriteStream } from "fs";
 import { IncomingMessage } from "http";
 import { https, http } from "follow-redirects";
 import pLimit from "p-limit";
 import { URL } from "url";
 import { extname } from "path";
+import invariant from "tiny-invariant";
 
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0";
 
@@ -25,6 +22,12 @@ const main = async () => {
     )
   );
 
+  const iconMap: { [id: number]: Record<string, string> } = {
+    [ENV.MainnetBeta]: {},
+    [ENV.Testnet]: {},
+    [ENV.Devnet]: {},
+  };
+
   await Promise.all(
     tokenList.map(async (token) => {
       await limit(async () => {
@@ -34,9 +37,11 @@ const main = async () => {
         const url = new URL(token.logoURI);
 
         // Image will be stored at this path
-        const path = `${__dirname}/../icons/${token.chainId}/${
-          token.address
-        }${extname(url.pathname)}`;
+        const extension = extname(url.pathname);
+        const path = `${__dirname}/../icons/${token.chainId}/${token.address}${extension}`;
+        const chainMap = iconMap[token.chainId];
+        invariant(chainMap, `chain ${token.chainId} invalid`);
+        chainMap[token.address] = extension;
         try {
           await stat(path);
           // console.warn(`Skipping ${token.name}`);
@@ -49,7 +54,7 @@ const main = async () => {
 
         const handleFile = (res: IncomingMessage) => {
           console.log(`Downloading ${token.name}`);
-          const filePath = fs.createWriteStream(path);
+          const filePath = createWriteStream(path);
           res.pipe(filePath);
           filePath.on("finish", () => {
             filePath.close();
@@ -64,6 +69,12 @@ const main = async () => {
         }
       });
     })
+  );
+
+  await writeFile(
+    `${__dirname}/../src/icons.json`,
+    JSON.stringify(iconMap),
+    {}
   );
 };
 

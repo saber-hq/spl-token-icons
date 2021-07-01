@@ -2,23 +2,30 @@
   "name": "@shipcap/spl-token-icons",
   "version": "0.1.0",
   "description": "Token icons cached on GitHub",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "repository": "git@github.com:saber-hq/spl-token-icons.git",
   "author": "Ian Macalinao <ian@saber.so>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
-    "update": "ts-node src/update.ts"
+    "build": "rm -fr dist/ && tsc -P tsconfig.build.json && tsc -P tsconfig.esm.json",
+    "update": "ts-node scripts/update.ts"
   },
   "dependencies": {
-    "@solana/spl-token-registry": "^0.2.158",
-    "follow-redirects": "^1.14.1",
-    "p-limit": "^3.1.0"
+    "@solana/spl-token-registry": "^0.2.158"
   },
   "devDependencies": {
+    "follow-redirects": "^1.14.1",
+    "p-limit": "^3.1.0",
     "@types/follow-redirects": "^1.13.0",
     "@types/node": "^15.12.5",
     "prettier": "^2.3.2",
+    "tiny-invariant": "^1.1.0",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.4"
-  }
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ]
 }
