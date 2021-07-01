@@ -6,6 +6,9 @@
   "repository": "git@github.com:shipcap/spl-token-icons.git",
   "author": "Ian Macalinao <ian@ship.capital>",
   "license": "MIT",
+  "scripts": {
+    "update": "ts-node src/update.ts"
+  },
   "dependencies": {
     "@solana/spl-token-registry": "^0.2.158",
     "p-limit": "^3.1.0"
