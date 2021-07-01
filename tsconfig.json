@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "strict": true,
+    "strictFunctionTypes": true,
+    "noImplicitOverride": true,
+    "esModuleInterop": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "lib": ["ES2019"],
+    "types": ["node", "mocha"]
+  },
+  "include": ["src/"]
+}
