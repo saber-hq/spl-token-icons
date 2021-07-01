@@ -6,8 +6,7 @@ import {
 import { mkdir, stat } from "fs/promises";
 import * as fs from "fs";
 import { IncomingMessage } from "http";
-import * as https from "https";
-import * as http from "http";
+import { https, http } from "follow-redirects";
 import pLimit from "p-limit";
 import { URL } from "url";
 import { extname } from "path";
