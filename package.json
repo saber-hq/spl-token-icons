@@ -1,6 +1,6 @@
 {
   "name": "@saberhq/spl-token-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Token icons cached on GitHub",
   "keywords": [
     "solana",
@@ -30,10 +30,10 @@
     "@solana/spl-token-registry": "^0.2.158"
   },
   "devDependencies": {
-    "follow-redirects": "^1.14.1",
-    "p-limit": "^3.1.0",
     "@types/follow-redirects": "^1.13.0",
     "@types/node": "^15.12.5",
+    "follow-redirects": "^1.14.1",
+    "p-limit": "^3.1.0",
     "prettier": "^2.3.2",
     "tiny-invariant": "^1.1.0",
     "ts-node": "^10.0.0",
