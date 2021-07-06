@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@solana/spl-token-registry@^0.2.168":
-  version "0.2.168"
-  resolved "https://registry.yarnpkg.com/@solana/spl-token-registry/-/spl-token-registry-0.2.168.tgz#025796207ea04f816327540d82a324554084da78"
-  integrity sha512-twRl8LR85s/RFaWUR91sIM1Am0LpyTvXcvdtRx+lAZr7r5mplmB1x7TDKorGpejyvWgyh1flgkYvmU5TD5K23A==
+"@solana/spl-token-registry@^0.2.169":
+  version "0.2.169"
+  resolved "https://registry.yarnpkg.com/@solana/spl-token-registry/-/spl-token-registry-0.2.169.tgz#fa4e9c980e0cfb719134834b8687a21379264c6f"
+  integrity sha512-hFrF5TLjUN7oRDIpJgweWK0GYvu7G7MUUDVVlsT2dmRjYXg2rgfVLsEEZP8glAbtUGqASj/YZGvjVHVBlfvvOA==
   dependencies:
     cross-fetch "3.0.6"
 
