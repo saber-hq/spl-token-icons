@@ -1,6 +1,6 @@
 {
   "name": "@saberhq/spl-token-icons",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Token icons cached on GitHub",
   "keywords": [
     "solana",
