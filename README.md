@@ -7,7 +7,7 @@ Icons pre-downloaded to be able to be delivered efficiently via a GitHub CDN.
 ```jsx
 const parts = token.logoURI.split(".");
 <img
-  src={`https://cdn.jsdelivr.net/gh/saber-hq/spl-token-icons@master/icons/${
+  src={`https://spl-token-icons.static-assets.ship.capital/icons/${
     token.chainId
   }/${token.address}.${parts[parts.length - 1] ?? ""}`}
 />;
