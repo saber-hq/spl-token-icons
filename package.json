@@ -27,17 +27,19 @@
     "icons:fetch": "ts-node scripts/fetchIcons.ts"
   },
   "dependencies": {
-    "@solana/spl-token-registry": "^0.2.273"
+    "@solana/spl-token-registry": "^0.2.285",
+    "tslib": "^2.3.1"
   },
   "devDependencies": {
-    "@types/follow-redirects": "^1.13.0",
-    "@types/node": "^15.12.5",
-    "follow-redirects": "^1.14.1",
-    "p-limit": "^3.1.0",
-    "prettier": "^2.3.2",
+    "@types/follow-redirects": "^1.13.1",
+    "@types/node": "^16.11.4",
+    "follow-redirects": "^1.14.4",
+    "p-limit": "^4.0.0",
+    "prettier": "^2.4.1",
     "tiny-invariant": "^1.1.0",
-    "ts-node": "^10.0.0",
-    "typescript": "^4.3.4"
+    "ts-node": "^10.4.0",
+    "typedoc": "^0.22.6",
+    "typescript": "^4.4.4"
   },
   "files": [
     "dist/",
