@@ -13,6 +13,18 @@ const parts = token.logoURI.split(".");
 />;
 ```
 
+or
+
+```
+yarn add @saberhq/spl-token-icons
+```
+
+```jsx
+import { getTokenInfo } from "@saberhq/spl-token-icons";
+
+const icon = getTokenIcon({ address: "...", chainId: "..." });
+```
+
 ## Updating
 
 ```bash
