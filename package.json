@@ -34,7 +34,7 @@
     "@types/follow-redirects": "^1.13.1",
     "@types/node": "^16.11.4",
     "follow-redirects": "^1.14.4",
-    "p-limit": "^4.0.0",
+    "p-limit": "3",
     "prettier": "^2.4.1",
     "tiny-invariant": "^1.1.0",
     "ts-node": "^10.4.0",

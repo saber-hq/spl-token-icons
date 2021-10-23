@@ -44,7 +44,6 @@ const main = async () => {
         chainMap[token.address] = extension;
         try {
           await stat(path);
-          // console.warn(`Skipping ${token.name}`);
           return;
         } catch (e) {
           if (!(e instanceof Error && e.message.includes("ENOENT"))) {
@@ -62,10 +61,17 @@ const main = async () => {
           });
         };
 
+        const onError = (err: Error) => {
+          console.warn(
+            `Error fetching icon for ${token.name} (${token.address}) at ${token.logoURI}:`
+          );
+          console.warn(err);
+        };
+
         if (url.protocol === "http:") {
-          http.get(token.logoURI, handleFile);
+          http.get(token.logoURI, handleFile).on("error", onError);
         } else {
-          https.get(token.logoURI, handleFile);
+          https.get(token.logoURI, handleFile).on("error", onError);
         }
       });
     })
