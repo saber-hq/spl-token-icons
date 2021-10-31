@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" name="viewport" />
+
+    <!-- section:seometa -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Discord" />
+    <meta property="og:title" content="Discord - A New Way to Chat with Friends & Communities" />
+    <meta
+      property="og:description"
+      content="Discord is the easiest way to communicate over voice, video, and text.  Chat, hang out, and stay close with your friends and communities."
+    /><meta property="og:image" content="https://discord.com/assets/652f40427e1f5186ad54836074898279.png" />    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@discord" />
+    <meta name="twitter:creator" content="@discord" />
+    <!-- endsection -->
+<link rel="stylesheet" href="/assets/532.f159f9c4649e5245d8f9.css" integrity="sha256-5dmrtu2+jrXBMZt0aPkaPBLOtITPSXcq/62I+wPh7II= sha512-bUoPInwZpVEV1DJqnNvKkvfCTsBwSdDx4RWKOrvaRGVMg8ApA1icfIsTVzRAjvge4YwzXHqqjR2BvNgvVG9m8A=="><link rel="icon" href="/assets/ec2c34cadd4b5f4594415127380a85e6.ico" />    <!-- section:title -->
+    <title>Discord</title>
+    <!-- endsection -->
+  </head>
+
+  <body>
+    <div id="app-mount"></div><script nonce="MTUxLDMsNDcsNzksNjMsOTQsMTYzLDE0NA==">window.__OVERLAY__ = /overlay/.test(location.pathname)</script><script nonce="MTUxLDMsNDcsNzksNjMsOTQsMTYzLDE0NA==">window.__BILLING_STANDALONE__ = /^\/billing/.test(location.pathname)</script><script nonce="MTUxLDMsNDcsNzksNjMsOTQsMTYzLDE0NA==">window.GLOBAL_ENV = {
+        API_ENDPOINT: '//discord.com/api',
+        API_VERSION: 9,
+        GATEWAY_ENDPOINT: 'wss://gateway.discord.gg',
+        WEBAPP_ENDPOINT: '//discord.com',
+        CDN_HOST: 'cdn.discordapp.com',
+        ASSET_ENDPOINT: 'https://discord.com',
+        MEDIA_PROXY_ENDPOINT: 'https://media.discordapp.net',
+        WIDGET_ENDPOINT: '//discord.com/widget',
+        INVITE_HOST: 'discord.gg',
+        GUILD_TEMPLATE_HOST: 'discord.new',
+        GIFT_CODE_HOST: 'discord.gift',
+        RELEASE_CHANNEL: 'stable',
+        MARKETING_ENDPOINT: '//discord.com',
+        BRAINTREE_KEY: 'production_5st77rrc_49pp2rp4phym7387',
+        STRIPE_KEY: 'pk_live_CUQtlpQUF0vufWpnpUmQvcdi',
+        NETWORKING_ENDPOINT: '//router.discordapp.net',
+        RTC_LATENCY_ENDPOINT: '//latency.discord.media/rtc',
+        ACTIVITY_APPLICATION_HOST: 'discordsays.com',
+        PROJECT_ENV: 'production',
+        REMOTE_AUTH_ENDPOINT: '//remote-auth-gateway.discord.gg',
+        SENTRY_TAGS: {"buildId":"54edf1fff082cc67f832b3da4df792aa1f3db473","buildType":"normal"},
+        MIGRATION_SOURCE_ORIGIN: 'https://discordapp.com',
+        MIGRATION_DESTINATION_ORIGIN: 'https://discord.com',
+        HTML_TIMESTAMP: Date.now(),
+        ALGOLIA_KEY: 'aca0d7082e4e63af5ba5917d5e96bed0',
+      };</script><script nonce="MTUxLDMsNDcsNzksNjMsOTQsMTYzLDE0NA==">!function(){if(null!=window.WebSocket){if(function(n){try{var e=localStorage.getItem(n);return null==e?null:JSON.parse(e)}catch(n){return null}}("token")&&!window.__OVERLAY__){var n=null!=window.DiscordNative||null!=window.require?"etf":"json",e=window.GLOBAL_ENV.GATEWAY_ENDPOINT+"/?encoding="+n+"&v="+window.GLOBAL_ENV.API_VERSION+"&compress=zlib-stream";console.log("[FAST CONNECT] connecting to: "+e);var o=new WebSocket(e);o.binaryType="arraybuffer";var t=Date.now(),i={open:!1,identify:!1,gateway:e,messages:[]};o.onopen=function(){console.log("[FAST CONNECT] connected in "+(Date.now()-t)+"ms"),i.open=!0},o.onclose=o.onerror=function(){window._ws=null},o.onmessage=function(n){i.messages.push(n)},window._ws={ws:o,state:i}}}}();</script><script src="/assets/ac4428c111bf6a215b0f.js" integrity="sha256-ydtzyoaDqaFaVOMQpzKOsYWgalL7SIxGHib7TmpPzT0= sha512-jl9aKfSZt26bOlctZXVFdB9lgNnOvl17O2llRkyYaE+y480csngtINi08dWtTA8O8pxG3uKpmunM5YGeOgx6rQ=="></script><script src="/assets/ea69f2dab3e6890cbfc5.js" integrity="sha256-BltSJwVIYmIrn6CoNyujZd+KX8V8A22xuR1eXill+D4= sha512-/G9VRlkxb0CE7pHedwXbXMDEpspfHdPTMLCfheiikC9loV6hVQlUJMkCSzljI2+IAR95arNUm8PcFvz6RzRvvw=="></script><script src="/assets/afed28b0b05ffc9a7a27.js" integrity="sha256-qeT/JZaZUfoQh3ULFOG1scYGZxx/zKn/wUsLW9S8bKs= sha512-uTuhGGIKe066ysBv3fLNYf7+2aybj3EmHCFFGAPmtDUB8cRJTRlZdk/We64xwzGDnAHj0JinyZ2HrOcjVJj+7g=="></script><script src="/assets/71e87549ca9fa8b56538.js" integrity="sha256-JQYh7wmbsm6jriPe4KCwQjpk1tX+hxBuv5Pllyi2Slc= sha512-UfHYpBOQmBrGNhCVFGcfxlUIGHnGhzTYj6mZZXx8VziK4/OMAEQQ1u5diP0QiKObv3qGRIpUkN2iUddsUBUy0Q=="></script>  </body>
+</html>
