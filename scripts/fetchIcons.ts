@@ -90,4 +90,4 @@ const main = async (forceUpdate: boolean = false) => {
   );
 };
 
-main(!!process.env.FORCE_UPDATE).catch((e) => console.error(e));
+main(process.env.FORCE_UPDATE === "true").catch((e) => console.error(e));

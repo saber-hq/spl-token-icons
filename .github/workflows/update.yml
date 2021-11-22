@@ -3,7 +3,11 @@ name: Update spl-token-registry
 on:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      forceUpdate:
+        description: "Forces all token icons to be updated."
+        default: false
 
 jobs:
   sync:
@@ -32,6 +36,8 @@ jobs:
       # but this makes CI much faster
       # - run: rm -r icons/
       - run: yarn icons:fetch
+        env:
+          FORCE_UPDATE: ${{ github.event.inputs.forceUpdate }}
       - run: |
           if [ "$(git diff-index HEAD)" != '' ]; then
             echo "Change detected. Updating icons."
