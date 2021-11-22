@@ -1,4 +1,4 @@
-import { ENV, TokenListProvider } from "@solana/spl-token-registry";
+import { ENV, Strategy, TokenListProvider } from "@solana/spl-token-registry";
 import { mkdir, stat, writeFile } from "fs/promises";
 import { createWriteStream } from "fs";
 import { IncomingMessage } from "http";
@@ -13,7 +13,7 @@ process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0";
 const limit = pLimit(10);
 
 const main = async () => {
-  const tokens = await new TokenListProvider().resolve();
+  const tokens = await new TokenListProvider().resolve(Strategy.GitHub);
   const tokenList = tokens.getList();
 
   await Promise.all(
