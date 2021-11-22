@@ -12,7 +12,10 @@ process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0";
 
 const limit = pLimit(10);
 
-const main = async () => {
+/**
+ * @param forceUpdate Forces an update of token icons.
+ */
+const main = async (forceUpdate: boolean = false) => {
   const tokens = await new TokenListProvider().resolve(Strategy.GitHub);
   const tokenList = tokens.getList();
 
@@ -42,12 +45,15 @@ const main = async () => {
         const chainMap = iconMap[token.chainId];
         invariant(chainMap, `chain ${token.chainId} invalid`);
         chainMap[token.address] = extension;
-        try {
-          await stat(path);
-          return;
-        } catch (e) {
-          if (!(e instanceof Error && e.message.includes("ENOENT"))) {
-            throw e;
+
+        if (!forceUpdate) {
+          try {
+            await stat(path);
+            return;
+          } catch (e) {
+            if (!(e instanceof Error && e.message.includes("ENOENT"))) {
+              throw e;
+            }
           }
         }
 
@@ -84,4 +90,4 @@ const main = async () => {
   );
 };
 
-main().catch((e) => console.error(e));
+main(!!process.env.FORCE_UPDATE).catch((e) => console.error(e));
