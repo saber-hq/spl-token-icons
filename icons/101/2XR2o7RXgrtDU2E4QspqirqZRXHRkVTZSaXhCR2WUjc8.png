@@ -125,7 +125,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="07C1:23F8:15DCCE9:1983B61:61F72A1A" data-pjax-transient="true"/><meta name="html-safe-nonce" content="df181dd5d383da4cfcfbe621f5810ba50e8f035e0342799d16e5dea491f1447d" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwN0MxOjIzRjg6MTVEQ0NFOToxOTgzQjYxOjYxRjcyQTFBIiwidmlzaXRvcl9pZCI6IjUyOTk2MTAxOTkzMzkyNzk2MiIsInJlZ2lvbl9lZGdlIjoic2VhIiwicmVnaW9uX3JlbmRlciI6InNlYSJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="19d9f02b051e6b6e60ce95377043a3aa34c59b0a630f9033a2b0c9d39098649c" data-pjax-transient="true"/>
+  <meta name="request-id" content="CBFF:6C8B:11B46E:436623:61F7729C" data-pjax-transient="true"/><meta name="html-safe-nonce" content="7483c6efe3314b496a7bdf6d3d0129c17cb0fd43388bd932965b947d228bde35" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDQkZGOjZDOEI6MTFCNDZFOjQzNjYyMzo2MUY3NzI5QyIsInZpc2l0b3JfaWQiOiI2NzgzNTIyODYyNzgzNzU0OTA4IiwicmVnaW9uX2VkZ2UiOiJzZWEiLCJyZWdpb25fcmVuZGVyIjoic2VhIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="81070382726e1c695d80705c0ebd2ad3c8265f8a4d14410ac4f98c6b4dd8b4fd" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:453599708" data-pjax-transient>
 
@@ -474,7 +474,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="NxC8a5/wMRZqu09sllONyEckmNQg6OHOn76DK18tV5hdul7yvkQkxyV8AoQY31HX5HCDLOl5hsXOSb8rL5jMhw==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="/bFvhKN7wwYG/L9T8VUfpVCuJwT+00RlfXX7NVWvWfTjyxvKtQzMs1cps94xtDjRjdxoA2jc3p2uWYXDcnWYPA==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -1281,7 +1281,7 @@
 </svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/iNewberry/soltoken/delete/main/newberry_white_225_250.png" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="hdGv9Fl4EOqYtkqn5ShmUEf5vzNhXHzuA3uu2F7axSZ15NrHbSND10Ah7G2ccJmYTy+jWTU/OTj+FUlZafL/VQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/iNewberry/soltoken/delete/main/newberry_white_225_250.png" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="V3VhVzAOXK7RMffyQpS+9hRuKcgpqh5tWEzY5TviW49IFiYFmhL7CYmNAHZM9xUqrBBwL4HHKO46TV8xpC+tLg==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="You must be signed in to make or propose changes" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">

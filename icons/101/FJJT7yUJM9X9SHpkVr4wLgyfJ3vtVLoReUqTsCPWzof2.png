@@ -1,736 +1,535 @@
 <!DOCTYPE html>
-<html lang="en" class="js">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000000" />
+    <title>KEKW | NFT Community Hub</title>
+    <meta name="author" content="KEKW" />
+    <meta
+      name="description"
+      content="Tourog | Creative Agensy for Digital Age"
+    />
+    <meta
+      name="keywords"
+      content="nft, crypto, metaverse, hub, community, meta, NFT, creators, digital"
+    />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Kekwcoin">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="Kekwcoin, token, meme, coin, Kekw">
-    <meta name="description" content="Kekwcoin, Kekw">
-    <!-- Fav Icon  -->
-    <link rel="shortcut icon" href="images/new_logo.png">
-    <!-- Site Title  -->
-    <title>KEKW - The coin of content creators</title>
-    <!-- Bundle and Base CSS -->
-    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=1930">
-    <link rel="stylesheet" href="assets/css/style-dark.css?ver=1930" id="changeTheme">
-    <!-- Extra CSS -->
-    <link rel="stylesheet" href="assets/css/theme.css?ver=1930">
+    <!-- SOCIAL MEDIA META -->
+    <meta property="og:description" content="KEKW | NFT Community Hub" />
+    <meta property="og:site_name" content="KEKW" />
+    <meta property="og:title" content="KEKW" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.kekw.io/" />
 
+    <!-- TWITTER META -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kekwcoin" />
+    <meta name="twitter:creator" content="@kekwcoin" />
+    <meta name="twitter:title" content="kekwcoin" />
+    <meta name="twitter:description" content="KEKW | NFT Community Hub" />
 
+    <!-- FAVICON FILES -->
+    <link
+      href="ico/apple-touch-icon-144-precomposed.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <link
+      href="ico/apple-touch-icon-114-precomposed.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="ico/apple-touch-icon-72-precomposed.png"
+      rel="apple-touch-icon"
+      sizes="72x72"
+    />
+    <link
+      href="ico/apple-touch-icon-57-precomposed.png"
+      rel="apple-touch-icon"
+    />
+    <link href="images/logo_black.png" rel="shortcut icon" />
 
-
-</head>
-
-<body class="nk-body body-wider theme-dark mode-onepage">
-
-    <div class="nk-wrap">
-        <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
-            <!-- Header @s -->
-            <div class="header-main">
-                <div class="header-container container">
-                    <div class="header-wrap">
-                        <!-- Logo @s -->
-                        <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
-                            <a href="./" class="logo-link">
-                                <img class="logo-dark" src="images/logo_black.png" srcset="images/logo_black.png 2x"
-                                    alt="logo">
-                                <img class="logo-light" src="images/new_logo.png" srcset="images/new_logo.png 2x"
-                                    alt="logo">
-                            </a>
-                        </div>
-
-                        <!-- Menu Toogle @s -->
-                        <div class="header-nav-toggle">
-                            <a href="#" class="navbar-toggle" data-menu-toggle="example-menu-04">
-                                <div class="toggle-line">
-                                    <span></span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <!-- Menu @s -->
-                        <div class="header-navbar header-navbar-s1">
-                            <nav class="header-menu" id="example-menu-04">
-                                <ul class="menu menu-s2 animated" data-animate="fadeInDown" data-delay=".75">
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#about">ABOUT</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link"
-                                            href="#coinmetrics">COINMETRICS</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#litepaper">LITEPAPER</a>
-                                    </li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#howtobuy"
-                                            target="_blank">HOW TO BUY</a>
-                                    </li>
-
-                                    <!-- <li class="menu-item has-sub">
-                                        <a class="menu-link nav-link menu-toggle" href="#">More</a>
-                                        <ul class="menu-sub menu-drop">
-                                            <li class="menu-item"><a class="menu-link nav-link" href="#media-partner">Media Partner</a></li>
-                                            <li class="menu-item"><a class="menu-link nav-link" href="#blog">Blogs</a></li>
-                                            <li class="menu-item"><a class="menu-link nav-link" href="#faqs">Faqs</a></li>
-                                        </ul>
-                                    </li> -->
-
-                                </ul>
-                                <ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
-                                    <li><a href="#"
-                                            class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round"
-                                            target="_blank"><span>NFT MARKET</span>
-                                            <div class="comming-soon">Soon</div>
-                                        </a></li>
-                                </ul>
-                                <ul class="menu-btns animated" style="margin-left: 25px;" data-animate="fadeInDown"
-                                    data-delay=".85">
-                                    <li><a href="#"
-                                            class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round"
-                                            target="_blank"><span> SWAP </span>
-                                            <div class="comming-soon">Soon</div>
-                                        </a></li>
-                                </ul>
-                            </nav>
-                        </div><!-- .header-navbar @e -->
-                    </div>
-                </div>
-            </div><!-- .header-main @e -->
-            <!-- Banner @s -->
-            <div class="header-banner bg-theme-dark">
-                <div class="nk-banner">
-                    <div class="banner banner-mask-fix banner-fs banner-single tc-light">
-                        <div class="banner-wrap">
-                            <div class="container">
-                                <div class="row align-items-center justify-content-center gutter-vr-30px">
-                                    <!-- <div class="col-lg-4 text-center order-lg-last" >
-                                        <div class=" text-center animated" data-animate="fadeInUp"
-                                            data-delay="1.25">
-                                            <p class="title-md">Something is happening...</p>
-                                            <br>
-                                            <div class="text-center">
-                                                <div class="countdown " data-date="2021/09/17 15:00 UTC" data-min-text="Minutes" data-sec-text="Seconds"></div>
-                                            </div>
-
-                                        </div>
-                                    </div> -->
-                                    <div class="col-lg-6 order-lg-last">
-                                        <div class="banner-gfx banner-gfx-re-s3 animated" data-animate="fadeInUp"
-                                            data-delay="1.25">
-                                            <!-- <img src="images/gfx-s-light.png" alt=""> -->
-                                            <!-- <img class="banner-gfx-icon banner-gfx-icon-1"
-                                                src="images/new_logo.png" alt=""> -->
-
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="banner-caption wide-auto text-center text-lg-left">
-                                            <div class="cpn-head mt-0">
-                                                <h1 class="title title-xl-2 title-semibold animated"
-                                                    data-animate="fadeInUp" data-delay="1.35">Kekwcoin, the coin of
-                                                    content creators!</h1>
-                                            </div>
-                                            <div class="cpn-text cpn-text-s1">
-                                                <p class="lead animated" data-animate="fadeInUp" data-delay="1.45">
-                                                    Kekwcoin ($KEKW) is a project aiming to put content creators, meme
-                                                    creators, artists, gamers, developers and more in touch to empower
-                                                    their work and promote collaborations between them.</p>
-                                            </div>
-                                            <div class="cpn-btns">
-                                                <ul class="btn-grp animated" data-animate="fadeInUp" data-delay="1.55">
-                                                    <li><a href="https://trade.dexlab.space/#/market/N99ngemA29qSKqdDW7kRiZHS7h2wEFpdgRvgE3N2jy6"
-                                                            target="_blank"
-                                                            class="btn btn-md btn-grad btn-outline btn-grad-alternet on-bg-theme btn-round">Get
-                                                            $KEKW</a>
-                                                    </li>
-                                                    <li><a href="https://raydium.io/liquidity/?ammId=8T4kGA7PL7DDiAZtFz6DP6Ufs9Xb2cdiwnqHzS5c1MKg"
-                                                            target="_blank" class="btn btn-md btn-grad btn-round">ADD
-                                                            LIQUIDITY</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="cpn-social">
-                                                <ul class="social">
-                                                    <li class="animated" data-animate="fadeInUp" data-delay="1.7"><a
-                                                            href="https://twitter.com/kekwcoin" target="_blank"><em
-                                                                class="social-icon fab fa-twitter"></em></a>
-                                                    </li>
-                                                    <li class="animated" data-animate="fadeInUp" data-delay="1.75"><a
-                                                            href="https://discord.gg/XMu4SVK54K" target="_blank"><em
-                                                                class="social-icon fab fa-discord"></em></a>
-                                                    </li>
-                                                    <li class="animated" data-animate="fadeInUp" data-delay="1.8"><a
-                                                            href="https://t.me/kekwcoinofficial" target="_blank"><em
-                                                                class="social-icon fab fa-telegram"></em></a>
-                                                    </li>
-                                                    <li class="animated" data-animate="fadeInUp" data-delay="1.85"><a
-                                                            href="https://kekwcoin.medium.com" target="_blank"><em
-                                                                class="social-icon fab fa-medium"></em></a>
-                                                    </li>
-                                                    <li class="animated" data-animate="fadeInUp" data-delay="1.9"><a
-                                                            href="https://www.youtube.com/channel/UC9HYiJGM9GcYiRmHGzQvhgA"
-                                                            target="_blank"><em
-                                                                class="social-icon fab fa-youtube"></em></a>
-                                                    </li>
-                                                    <!-- <li class="animated" data-animate="fadeInUp" data-delay="1.85"><a
-                                                            href="#"><em class="social-icon fab fa-reddit"></em></a> -->
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                </div><!-- .row -->
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- .nk-banner -->
-                <div class="nk-ovm mask-c-dark shape-v mask-contain-bottom"></div>
-
-                <!-- Place Particle Js -->
-                <div id="particles-bg" class="particles-container particles-bg" data-pt-base="#0dd99d"
-                    data-pt-base-op=".1" data-pt-line="#0dd99d" data-pt-line-op=".1" data-pt-shape="#0dd99d"
-                    data-pt-shape-op=".1"></div>
-            </div>
-            <!-- .header-banner @e -->
-        </header>
-
-        <main class="nk-pages">
-            <section class="section mask-c-blend-dark bg-theme-dark-alt tc-light ov-h" id="about">
-                <div class="container">
-                    <!-- Block @s -->
-                    <div class="nk-block nk-block-text-wrap">
-                        <div
-                            class="row align-items-center justify-content-center justify-content-md-between gutter-vr-30px">
-                            <div class="col-mb-9 col-sm-10 col-md-6 col-lg-5 order-md-last">
-                                <div class="nk-block-img animated" data-animate="fadeInUp" data-delay=".1">
-                                    <img src="images/feat_new.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-sm-10 col-md-6 text-center text-md-left">
-                                <div class="nk-block-text">
-                                    <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">A new space for a
-                                        new generation</h2>
-                                    <p class="lead animated" data-animate="fadeInUp" data-delay=".3">Kekw will be a
-                                        community driven space. It will allow up-and coming creators and artists to have
-                                        a voice, to create collabs, to use amazing tools, empower each other and to be
-                                        rewarded and valued.
-                                    </p>
-                                    <a href="https://youtu.be/d-9t1uoSgjc" target="_blank" class="
-                                         btn-play-wrap animated" data-animate="fadeInUp" data-delay=".4">
-                                        <div class="btn-play btn-play-sm btn-play-s2">
-                                            <em class="btn-play-icon"></em>
-                                        </div>
-                                        <div class="btn-play-text">
-                                            <span class="text-sm">Action!</span>
-                                            <span class="text-xs">Kekw NFTs recopilation</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div><!-- .row -->
-                    </div><!-- .block @e -->
-                </div>
-            </section>
-            <!-- // -->
-            <section class="section bg-theme-dark-alt tc-light ov-h" id="about2">
-                <div class="container">
-                    <!-- Block @s -->
-                    <div class="nk-block nk-block-features-2">
-                        <div
-                            class="row align-items-center gutter-vr-30px justify-content-center justify-content-md-between">
-                            <div class="col-mb-9 col-sm-7 col-md-6 col-lg-5">
-                                <div class="gfx py-4 animated" data-animate="fadeInUp" data-delay=".1">
-                                    <img src="images/kekw_sol_new.png" alt="gfx">
-                                </div>
-                            </div><!-- .col -->
-                            <div class="col-sm-10 col-md-6 text-center text-md-left">
-                                <!-- Section Head @s -->
-                                <div class="nk-block-text">
-                                    <h4 class="title title-lg animated" data-animate="fadeInUp" data-delay=".2">By the
-                                        community for the community</h4>
-                                    <p class="lead animated" data-animate="fadeInUp" data-delay=".3">A new space for an
-                                        everyday growing community backed by the Solana blockchain. Be part of the
-                                        community by owning $KEKW tokens. You can also receive them by participating and
-                                        winning one of our contests or being an active community member!</p>
-
-                                </div>
-                            </div>
-                        </div><!-- .row -->
-                    </div><!-- .block @e -->
-                </div>
-            </section>
-            <!-- // -->
-            <section class="section section-tokensale tc-light bg-theme-dark" id="coinmetrics">
-                <!-- Block @s -->
-                <div class="container">
-                    <div class="section-head text-center wide-auto-sm">
-                        <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="COINMETRICS">
-                            Coinmetrics</h2>
-
-                    </div>
-                    <div class="nk-block nk-block-token mgb-m30">
-                        <div class="row align-items-center justify-content-between gutter-vr-50px">
-                            <div class="col-lg-6">
-                                <div class="row gutter-vr-30px">
-                                    <div class="col-sm-6">
-                                        <div class="stage-info animated" data-animate="fadeInUp" data-delay=".3">
-                                            <h6 class="title title-s6 title-xs-s2">Max Supply</h6>
-                                            <p>15,000,000,000 $KEKW</p>
-                                        </div>
-                                    </div><!-- .col  -->
-                                    <div class="col-sm-6">
-                                        <div class="stage-info animated" data-animate="fadeInUp" data-delay=".4">
-                                            <h6 class="title title-s6 title-xs-s2">Burn</h6>
-                                            <p>20% burn</p>
-                                        </div>
-                                    </div><!-- .col  -->
-                                    <div class="col-sm-6">
-                                        <div class="stage-info animated" data-animate="fadeInUp" data-delay=".5">
-                                            <h6 class="title title-s6 title-xs-s2">Circulating</h6>
-                                            <p>4,500,000,000 $KEKW</p>
-                                        </div>
-                                    </div><!-- .col  -->
-                                    <div class="col-sm-6">
-                                        <div class="stage-info animated" data-animate="fadeInUp" data-delay=".6">
-                                            <h6 class="title title-s6 title-xs-s2">Airdrop</h6>
-                                            <p>30% community airdrop</p>
-                                        </div>
-                                    </div><!-- .col  -->
-                                    <div class="col-sm-6">
-                                        <div class="stage-info animated" data-animate="fadeInUp" data-delay=".7">
-                                            <h6 class="title title-s6 title-xs-s2">Meme Contests</h6>
-                                            <p>Coming soon! Join our Discord!</p>
-                                        </div>
-                                    </div><!-- .col  -->
-                                    <div class="col-sm-6">
-                                        <div class="stage-info animated" data-animate="fadeInUp" data-delay=".8">
-                                            <h6 class="title title-s6 title-xs-s2">Token Symbol</h6>
-                                            <p>
-                                                $KEKW
-                                                <!-- <img class="logo-dark-little" src="images/new_logo.png" srcset="images/new_logo.png 2x"alt="logo"> -->
-                                            </p>
-                                        </div>
-                                    </div><!-- .col  -->
-                                </div><!-- .row  -->
-                            </div>
-                            <div class="col-lg-5">
-                                <div class="token-status token-status-s5 bg-theme-alt round no-bd animated"
-                                    data-animate="fadeInUp" data-delay=".9">
-                                    <div class="token-box token-box-s3">
-                                        <div class="countdown-s3 countdown-s4 countdown" data-date="2021/05/20"></div>
-                                    </div>
-
-                                    <div class="token-action">
-                                        <a class="btn btn-md btn-grad btn-round" href="https://discord.gg/XMu4SVK54K"
-                                            target="_blank">Join Next Contest</a>
-                                    </div>
-                                    <ul class="icon-list">
-                                        <li><em class=" fab fa-twitter"></em></li>
-                                        <li><em class=" fab fa-discord"></em></li>
-                                        <li><em class="fab fa-telegram"></em></li>
-                                        <li><em class="fab fa-medium"></em></li>
-                                        <li><em class="fab fa-youtube"></em></li>
-                                        <!-- <li><em class="fab fa-reddit"></em></li> -->
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .block @e -->
-                    <div class="nk-block">
-                        <div class="row justify-content-center gutter-vr-40px">
-                            <div class="col-md-8 col-mb-8">
-                                <div class="single-chart">
-                                    <h3 class="mgb-l text-center title-lg animated" data-animate="fadeInUp"
-                                        data-delay=".1">Distribution <br>of tokens</h3>
-                                    <div class="chart animated" data-animate="fadeInUp" data-delay=".2">
-                                        <div class="token-alocate-item">
-                                            <div class="token-alocate-graph">
-                                                <span>Token <br> Allocation</span>
-                                                <canvas class="chart-canvas" id="token-alocate"></canvas>
-                                            </div>
-                                            <ul class="chart-data" data-canvas="token-alocate"
-                                                data-canvas-type="doughnut">
-                                                <li data-color="#19e6ad" data-title="Liquidity" data-amount="30"></li>
-                                                <li data-color="#4db1c3" data-title="Airdrop" data-amount="30"></li>
-                                                <li data-color="#7688d5" data-title="Marketing" data-amount="10"></li>
-                                                <li data-color="#9f5ee6" data-title="Burn" data-amount="20"></li>
-                                                <li data-color="#d329fc" data-title="Team" data-amount="10"></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div><!-- .block @e -->
-                </div>
-            </section>
-
-            <!-- // -->
-            <section class="section bg-theme-dark-alt tc-light ov-h" id="litepaper">
-
-                <div class="container">
-                    <div class="section-head text-center wide-auto-sm">
-                        <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="LITEPAPER">
-                            Litepaper</h2>
-                    </div>
-                    <!-- Block @s -->
-                    <div class="nk-block nk-block-document">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10">
-                                <div class="card card-lg animated" data-animate="fadeInUp" data-delay=".3">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-6">
-                                            <div class="nk-block-img px-4 pb-4 pb-md-0">
-                                                <img src="images/litepapercover_new.png" alt="doc">
-                                            </div>
-                                        </div><!-- .col -->
-                                        <div class="col-md-6">
-                                            <div class="nk-block-text">
-                                                <h4 class="title title-md">Read the Litepaper</h4>
-                                                <p>A space meant to bring opportunities to up and coming creators,
-                                                    giving them a window to expose their talent, a voice to be heard and
-                                                    the opportunity to be valued and rewarded for their contributions.
-                                                </p>
-                                                <br>
-                                                <ul class="btn-grp gutter-30px gutter-vr-20px">
-                                                    <li><a href="assets/kekwcoin_litepaper_v1.pdf" target="_blank"
-                                                            class="btn btn-grad">Download Litepaper</a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div><!-- .col -->
-                                    </div><!-- .row -->
-                                </div><!-- .box -->
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .block @e -->
-                </div>
-
-            </section>
-            <!--  // -->
-
-
-            <!-- // -->
-            <section class="section section-features bg-theme tc-light" id="howtobuy">
-
-                <div class="container">
-                    <!-- Block @s -->
-                    <!-- Section Head @s -->
-                    <div class="section-head text-center wide-auto-sm tc-light">
-                        <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="HOW TO BUY">
-                            HOW TO BUY</h2>
-                    </div><!-- .section-head @e -->
-                    <!-- https://www.youtube.com/watch?v=O6kerIqYsy0 -->
-                    <div class="section-head text-center wide-auto-sm">
-                        <h5 class="title title-sm tc-primary animated" data-animate="fadeInUp" data-delay=".2">For
-                            experienced users...</h5>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".3"
-                            style="color: white; font-weight: 400;">Kekwcoin partnered with Raydium
-                            and now users can
-                            purchase KEKW tokens with ease at <a
-                                href="https://raydium.io/swap/?ammId=8T4kGA7PL7DDiAZtFz6DP6Ufs9Xb2cdiwnqHzS5c1MKg"
-                                target="_blank" style="font-weight: 500; color: #d018e6;">Raydium</a>. Click <a
-                                href="https://raydium.io/swap/?ammId=8T4kGA7PL7DDiAZtFz6DP6Ufs9Xb2cdiwnqHzS5c1MKg"
-                                target="_blank" style="font-weight: 500; color: #0dd99d;">here</a>,
-                            connect your wallet and start purchasing
-                            KEKW!</p>
-
-                    </div><!-- .section-head @e -->
-
-                    <div class="section-head text-center wide-auto-sm">
-                        <h5 class="title title-sm tc-primary animated" data-animate="fadeInUp" data-delay=".4">If you
-                            are a newcomer...</h5>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".5"
-                            style="color: white; font-weight: 400;">In case you are not yet started into crypto world,
-                            watch the following video:</p>
-                        <a href="https://www.youtube.com/watch?v=O6kerIqYsy0" target="_blank" class="text-sm text-md-left 
-                            btn-play-wrap animated" data-animate="fadeInUp" data-delay=".6">
-                            <div class="btn-play btn-play-sm btn-play-s2">
-                                <em class="btn-play-icon"></em>
-                            </div>
-                            <div class="btn-play-text">
-                                <span class="text-s" style="font-size: 14;">How to buy KEKW</span>
-                                <span class="text-xs">Full tutorial</span>
-                            </div>
-                        </a><br><br><br>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".7"
-                            style="color: white; font-weight: 400;">Otherwise, if you already own an exchange account,
-                            follow the step-by-step below in
-                            order to enter the crypto space, create a wallet, send tokens to your
-                            wallet and purchase KEKW!</p>
-                    </div><!-- .section-head @e -->
-                    <!-- Block @s -->
-                    <div class="nk-block">
-                        <div class="row justify-content-center">
-                            <div class="col-xl-8 col-lg-10">
-                                <ul class="nav tab-nav tab-nav-line mgb-r animated" data-animate="fadeInUp"
-                                    data-delay=".8">
-                                    <li><a class="active" data-toggle="tab" href="#create-sollet-wallet">Setup Sollet
-                                            Wallet</a></li>
-                                    <li><a data-toggle="tab" href="#get-sol-in-wallet">Get $USDC</a></li>
-                                    <li><a data-toggle="tab" href="#buy-kekw">Buy KEKW Token</a></li>
-                                </ul>
-                                <div class="tab-content animated" data-animate="fadeInUp" data-delay=".9">
-                                    <div class="tab-pane fade show active" id="create-sollet-wallet">
-                                        <div class="accordion accordion-faq" id="faq-67">
-                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
-                                                <h5 class="accordion-title" data-toggle="collapse"
-                                                    data-target="#faq-67-1">
-                                                    1. Setup Sollet Wallet
-                                                    <span class="accordion-icon accordion-icon-s2"></span>
-                                                </h5>
-                                                <div id="faq-67-1" class="collapse show" data-parent="#faq-67">
-                                                    <div class="accordion-content">
-                                                        <p>Go to <a href="https://www.sollet.io/" target="_blank"
-                                                                style="font-weight: 500 !important; color: #0dd99d;">sollet.io</a>
-                                                            and create a wallet. Keep
-                                                            your seed words in a safe place and make sure to use a
-                                                            password you will remind.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
-                                                <h5 class="accordion-title collapsed" data-toggle="collapse"
-                                                    data-target="#faq-67-2">
-                                                    2. Deposit Solana Token $SOL
-                                                    <span class="accordion-icon accordion-icon-s2"></span>
-                                                </h5>
-                                                <div id="faq-67-2" class="collapse" data-parent="#faq-67">
-                                                    <div class="accordion-content">
-                                                        <p>In order to purchase tokens you will always need SOL tokens
-                                                            in your wallet.
-                                                            To get SOL tokens buy them in exchanges like Huobi, Binance
-                                                            or
-                                                            FTX. Once you pruchased SOL in your exchange, withdrawl it
-                                                            and send it to your Sollet wallet. To find your SOL address
-                                                            click on the SOL tab in your Sollet wallet page to expand
-                                                            it.
-                                                        </p>
-                                                        <img src="images/receive_1.png" alt="">
-                                                        <p>
-                                                            press the <span style="font-weight: bold;">Receive</span>
-                                                            button and copy the
-                                                            <span style="font-weight: bold;">Deposit Address</span>
-                                                            which you need to paste in your
-                                                            exchange withdrawl page.
-                                                        </p>
-                                                        <img src="images/receive_2.png" alt="">
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- <div class="accordion-item accordion-item-s4 bg-theme-alt">
-                                                <h5 class="accordion-title collapsed" data-toggle="collapse"
-                                                    data-target="#faq-67-3">
-                                                    3. Mint KEKW token
-                                                    <span class="accordion-icon accordion-icon-s2"></span>
-                                                </h5>
-                                                <div id="faq-67-3" class="collapse" data-parent="#faq-67">
-                                                    <div class="accordion-content">
-                                                        <p>On the top right corner click the<span
-                                                                style="font-size: 1.5em; font-weight: 600; color: #0dd99d;">
-                                                                +
-                                                            </span>symbol to add a token. Go to the "MANUAL INPUT" tab
-                                                            and
-                                                            introduce the following information:<br>
-                                                            - Mint address: <span
-                                                                style="font-weight: bold;">2QK9vxydd7WoDwvVFT5JSU8cwE9xmbJSzeqbRESiPGMG</span><br>
-                                                            - Token Name: <span style="font-weight: bold;">KEKW
-                                                                Coin</span><br>
-                                                            - Token Symbol: <span style="font-weight: bold;">KEKW</span>
-                                                            <br>
-
-                                                        </p>
-                                                        <img src="images/mint.png" alt="">
-
-                                                    </div>
-                                                </div>
-                                            </div> -->
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="get-sol-in-wallet">
-                                        <div class="accordion accordion-faq" id="faq-68">
-                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
-                                                <h5 class="accordion-title" data-toggle="collapse"
-                                                    data-target="#faq-68-1">
-                                                    1. Access Raydium and Connect wallet
-                                                    <span class="accordion-icon accordion-icon-s2"></span>
-                                                </h5>
-                                                <div id="faq-68-1" class="collapse show" data-parent="#faq-68">
-                                                    <div class="accordion-content">
-                                                        <p>Go to <a href="https://raydium.io/swap/" target="_blank"
-                                                                style="font-weight: 500 !important; color: #0dd99d;">Raydium
-                                                                swap</a> and connect your Sollet wallet by pressing the
-                                                            Connect button on the top right of the screen. Then select
-                                                            the Sollet option and enter your password in the pop-up
-                                                            screen.<br> IMPORTANT: Don't close the pop-up screen while
-                                                            interacting with Raydium and keep it visible all the time.
-                                                        </p>
-                                                        <img src="images/connect_wallet.png" alt=""> <br>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
-                                                <h5 class="accordion-title collapsed" data-toggle="collapse"
-                                                    data-target="#faq-68-2">
-                                                    2. Swap SOL for USDC
-                                                    <span class="accordion-icon accordion-icon-s2"></span>
-                                                </h5>
-                                                <div id="faq-68-2" class="collapse" data-parent="#faq-68">
-                                                    <div class="accordion-content">
-                                                        <p>Once connected, configure the page to swap from SOL to USDC
-                                                            as shown in the picture below. Enter the amount of SOL you
-                                                            want to swap and tap on <span
-                                                                style="font-weight: bold;">Swap</span> to get your USDC.
-                                                        </p>
-                                                        <img src="images/get_usdc.png" alt=""><br>
-                                                        <p>Make sure to approve the operation in case it is required in
-                                                            your pop-up screen.
-                                                        </p>
-                                                        <img src="images/approve.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="buy-kekw">
-                                        <div class="accordion accordion-faq" id="faq-69">
-                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
-                                                <h5 class="accordion-title" data-toggle="collapse"
-                                                    data-target="#faq-69-1">
-                                                    1. Set the Swap to buy KEKW with USDC
-                                                    <span class="accordion-icon accordion-icon-s2"></span>
-                                                </h5>
-                                                <div id="faq-69-1" class="collapse show" data-parent="#faq-69">
-                                                    <div class="accordion-content">
-
-                                                        <p>Go to <a
-                                                                href="https://raydium.io/swap/?ammId=8T4kGA7PL7DDiAZtFz6DP6Ufs9Xb2cdiwnqHzS5c1MKg"
-                                                                target="_blank"
-                                                                style="font-weight: 500; color: #0dd99d;">Raydium</a>.
-                                                            Check that the swap pair is USDC - KEKW <span>
-                                                                <img style="width: 40px;" src="images/kekwusdc_new.png"
-                                                                    alt="">
-                                                            </span> as shown in the image below.
-                                                        </p>
-                                                        <img src="images/raydium_pair_new.png" alt=""> <br><br>
-
-                                                        <p> Next, press the <span style="font-weight: bold;">Connect
-                                                                Wallet</span> button in the bottom part of the swap and
-                                                            set the amount of USDC you want to swap.<br>Finally, press
-                                                            the SWAP button, approve the transaction on your wallet and
-                                                            you are done!
-
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- <div class="accordion-item accordion-item-s4 bg-theme-alt">
-                                                <h5 class="accordion-title collapsed" data-toggle="collapse"
-                                                    data-target="#faq-69-2">
-                                                    2. Purchase $KEKW
-                                                    <span class="accordion-icon accordion-icon-s2"></span>
-                                                </h5>
-                                                <div id="faq-69-2" class="collapse" data-parent="#faq-69">
-                                                    <div class="accordion-content">
-                                                        <p>Go to the right side of the screen, where the <span
-                                                                style="font-weight: bold; color: palegreen;">BUY</span>
-                                                            and <span
-                                                                style="font-weight: bold; color: palevioletred;">SELL</span>
-                                                            buttons and fill the box indicating the KEKW price you are
-                                                            willing to pay and the amount of tokens you want to purchase
-                                                            as shown in the example below.
-                                                        </p>
-                                                        <img src="images/solape_buy.png" alt=""> <br><br>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
-                                                <h5 class="accordion-title collapsed" data-toggle="collapse"
-                                                    data-target="#faq-69-3">
-                                                    3. Settle Balance
-                                                    <span class="accordion-icon accordion-icon-s2"></span>
-                                                </h5>
-                                                <div id="faq-69-3" class="collapse" data-parent="#faq-69">
-                                                    <div class="accordion-content">
-                                                        <p>Finally, in order to settle the tokens in your wallet, press
-                                                            the KEKW <span style="font-weight: bold;">Settle</span>
-                                                            button in the box below the purchase box.
-                                                        </p>
-                                                        <img src="images/solape_settle.png" alt=""> <br><br>
-
-                                                        <p><span style="font-weight: bold;">Congratulations! You are a
-                                                                KEKW community member and hodler!</span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div> -->
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .block @e -->
-                </div>
-            </section>
-        </main>
-        <footer class="nk-footer bg-theme-alt ">
-
-            <div class="section section-footer section-s tc-light bg-transparent">
-                <div class="container">
-                    <br>
-                    <br>
-                    <!-- Block @s -->
-                    <div class="nk-block block-footer">
-                        <div class="row">
-                            <div class="col">
-                                <div class="wgs wgs-text text-center mb-3">
-                                    <ul class="social pdb-m justify-content-center">
-                                        <li><a href="https://twitter.com/kekwcoin" target="_blank"><em
-                                                    class="social-icon fab fa-twitter"></em></a></li>
-                                        <li><a href="https://discord.gg/XMu4SVK54K" target="_blank"><em
-                                                    class="social-icon fab fa-discord"></em></a></li>
-                                        <!-- <li><a href="#"><em class="social-icon fab fa-reddit"></em></a></li> -->
-                                        <li><a href="https://t.me/kekwcoinofficial" target="_blank"><em
-                                                    class="social-icon fab fa-telegram"></em></a></li>
-                                        <li><a href="https://kekwcoin.medium.com" target="_blank"><em
-                                                    class="social-icon fab fa-medium"></em></a>
-                                        </li>
-                                        <li><a href="https://www.youtube.com/channel/UC9HYiJGM9GcYiRmHGzQvhgA"
-                                                target="_blank"><em class="social-icon fab fa-youtube"></em></a>
-                                        </li>
-
-                                    </ul>
-                                    <div class="copyright-text copyright-text-s3 pdt-m">
-                                        <p><span class="d-sm-block">Copyright © 2021 KekwCoin</p>
-                                    </div>
-                                    <div class="copyright-text copyright-text-s3 pdt-m">
-                                        <p><span class="d-sm-block">Disclaimer: The information provided shall not in
-                                                any way constitute a recommendation as to whether you should invest in
-                                                any product discussed. KekwCoin’s team accepts no liability for any loss
-                                                occasioned to any person acting or refraining from action as a result of
-                                                any material provided or published. KekwCoin is not a security as per US
-                                                financial regulation, Europe, UK,
-                                                Canada or any other regulation. The ownership of $KEKW coin does not
-                                                give any right of return, vote, management or any other right.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .block @e -->
-                </div>
-            </div>
-        </footer>
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/fancybox.min.css" />
+    <link rel="stylesheet" href="css/hamburger.min.css" />
+    <link rel="stylesheet" href="css/odometer.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="layer"></div>
+      <!-- end layer -->
+      <div class="inner">
+        <figure><img src="images/preloader.gif" alt="Image" /></figure>
+        <span>Site Loading</span>
+      </div>
+      <!-- end inner -->
     </div>
+    <!-- end preloader -->
+    <div class="page-transition">
+      <div class="layer"></div>
+      <!-- end layer -->
+    </div>
+    <!-- end page-transition -->
+    <nav class="site-navigation">
+      <div class="layer"></div>
+      <!-- end layer -->
+      <div class="inner">
+        <ul data-splitting>
+          <li>
+            <a href="#intro">HOME</a>
+            <small>Intro</small>
+          </li>
+          <li>
+            <a href="#about">ABOUT</a>
+            <small>What's KEKW?</small>
+          </li>
+          <li>
+            <a href="#token">TOKEN</a>
+            <small>Join Us</small>
+          </li>
+          <li>
+            <a href="#foundations">POWERED BY</a>
+            <small>The foundations</small>
+          </li>
+        </ul>
+      </div>
+      <!-- end inner -->
+    </nav>
+    <!-- end site-navigation -->
+    <div class="social-media">
+      <div class="layer"></div>
+      <!-- end layer -->
+      <div class="inner">
+        <h5>Social Share</h5>
+        <ul>
+          <li>
+            <a href="https://twitter.com/kekwcoin">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://discord.com/invite/XMu4SVK54K">
+              <i class="fab fa-discord"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/kekwcoinofficial">
+              <i class="fab fa-telegram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <main>
+      <aside class="left-side">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo_black.png" alt="Image" />
+          </a>
+        </div>
+        <!-- end logo -->
+        <div class="hamburger" id="hamburger">
+          <div class="hamburger__line hamburger__line--01">
+            <div class="hamburger__line-in hamburger__line-in--01"></div>
+          </div>
+          <div class="hamburger__line hamburger__line--02">
+            <div class="hamburger__line-in hamburger__line-in--02"></div>
+          </div>
+          <div class="hamburger__line hamburger__line--03">
+            <div class="hamburger__line-in hamburger__line-in--03"></div>
+          </div>
+          <div class="hamburger__line hamburger__line--cross01">
+            <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+          </div>
+          <div class="hamburger__line hamburger__line--cross02">
+            <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+          </div>
+        </div>
+        <!-- end hamburger -->
+        <div class="follow-us">FOLLOW US</div>
+        <!-- end follow-us -->
+        <div class="equalizer">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- end equalizer -->
+      </aside>
+      <!-- end left-side -->
+      <header id="intro" class="slider">
+        <div class="swiper-container gallery-top">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <video src="videos/particles-web.mov" muted autoplay loop></video>
+            </div>
+            <!-- <div
+              class="swiper-slide"
+              data-background="images/slide01.jpg"
+            ></div> -->
+            <div class="swiper-slide">
+              <video src="videos/waves-web.mov" muted autoplay loop></video>
+            </div>
+            <!-- <div
+              class="swiper-slide"
+              data-background="images/slide02.jpg"
+            ></div> -->
+            <div class="swiper-slide">
+              <video src="videos/globe-web.mov" muted autoplay loop></video>
+            </div>
+          </div>
+          <!-- end swiper-wrapper -->
+          <div class="slide-progress">
+            <span>01</span>
+            <div class="swiper-pagination"></div>
+            <span>03</span>
+          </div>
+          <!-- end slide-progress -->
+          <div class="swiper-button-prev">PREV</div>
+          <!-- end button-prev -->
+          <div class="swiper-button-next">NEXT</div>
+          <!-- end buttin-next -->
+        </div>
+        <!-- end gallery-top -->
+        <div class="swiper-container gallery-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <span>KEKW</span>
+              <a href="#">THE NFT HUB</a>
+            </div>
+            <div class="swiper-slide">
+              <span>METAVERSE</span>
+              <a href="#">A NEW WORLD</a>
+            </div>
+            <div class="swiper-slide">
+              <span>CREATORS</span>
+              <a href="#">THE MAIN PLAYER</a>
+            </div>
+          </div>
+          <!-- end swiper-wrapper -->
+        </div>
+        <!-- end gallery-thumbs -->
+      </header>
+      <!-- end slider -->
+      <section id="about" class="intro">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 wow" data-splitting>
+              <h3 class="section-title">
+                EXPERIENCING & SHAPING
+                <br />
+                THE FUTURE OF NFTS
+              </h3>
+              An ever growing Community
+            </div>
+            <!-- end col-5 -->
+            <div class="col-lg-7 wow" data-splitting>
+              <p>
+                KEKW is the first NFT hub and community driven project to access
+                the digital world and help shape it for the future generations.
+              </p>
+              <h6>Tom Karlssön</h6>
+              <small>Digital Artisit</small>
+              <b>+35k</b>
+              <h4>
+                MEMBERS ACROSS
+                <br />
+                SOCIAL MEDIA
+              </h4>
+            </div>
+            <!-- end col-7 -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </section>
+      <!-- end intro -->
+      <section class="icon-content-block" style="padding: 150px 0;">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 wow" data-splitting>
+              <h3 class="section-title">
+                HARNESSING HUMAN
+                <br />
+                POTENTIAL & CREATIVITY
+                <br />
+                IN THE DIGITAL WORLD
+              </h3>
+            </div>
+            <!-- end col-12 -->
+            <div class="col-lg-3 col-md-4 wow" data-splitting>
+              <div class="content-block">
+                <figure><img src="images/icon01.png" alt="Image" /></figure>
+                <h6>TALENT</h6>
+                <ul>
+                  <li>
+                    Empowering and lifting creators into the free future where
+                    talent and ambition are the only boundaries.
+                  </li>
+                </ul>
+              </div>
+              <!-- end content-block -->
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-4 wow" data-splitting>
+              <div class="content-block selected">
+                <figure><img src="images/icon02.png" alt="Image" /></figure>
+                <h6>NETWORK</h6>
+                <ul>
+                  <li>
+                    Building a permissionless community and enabling a
+                    decentralized network for creators to thrive.
+                  </li>
+                </ul>
+              </div>
+              <!-- end content-block -->
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-4 wow" data-splitting>
+              <div class="content-block">
+                <figure><img src="images/icon03.png" alt="Image" /></figure>
+                <h6>UNIVERSAL</h6>
+                <ul>
+                  <li>
+                    Secured by blockchain, accessible for everyone and released
+                    in the web3. Become a game changer with KEKW.
+                  </li>
+                </ul>
+              </div>
+              <!-- end content-block -->
+            </div>
+            <!-- end col-3 -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </section>
+      <!-- end icon-content-block -->
+      <section id="token" class="text-content-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 wow" data-splitting>
+              <h3 class="section-title">
+                $KEKW TOKEN
+                <br />
+                GOVERNANCE POWER - THE RIGHT TO YOUR FUTURE
+              </h3>
+            </div>
+            <!-- end col-12 -->
+            <div class="col-12 wow" data-splitting>
+              <h5>
+                $KEKW token is the pivotal point of the entire KEKW ecosystem.
+                From allowing the KEKW community to vote on its future to
+                exchange value seamlessly, $KEKW token will be integrated in the
+                full suite of facilities and platforms available in the KEKW
+                community. Get your $KEKW and join exclusive contests, NFT
+                pre-sales and rewards for your contributions. You can get your
+                KEKW tokens
+                <span style="font-weight: bolder;">
+                  <a
+                    target="_blank"
+                    style="text-decoration: none !important;"
+                    href="https://trade.dexlab.space/#/market/N99ngemA29qSKqdDW7kRiZHS7h2wEFpdgRvgE3N2jy6"
+                  >
+                    here
+                  </a>
+                </span>
+                .
+              </h5>
+            </div>
+            <!-- end col-12	 -->
+            <div class="col-lg-3 col-md-6 wow" data-splitting>
+              <small>01</small>
+              <h6>MARKETPLACE</h6>
+              <p>
+                Buy & sell any NFT. Get exposure to the whole KEKW community
+                seamlessly.
+              </p>
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6 wow" data-splitting>
+              <small>02</small>
+              <h6>LAUNCHPAD</h6>
+              <p>
+                Emerging projects with huge potential will be eligible to list
+                on KEKW lanchpad.
+              </p>
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6 wow" data-splitting>
+              <small>03</small>
+              <h6>KEKW DAO</h6>
+              <p>
+                By the community, for the community. Participate in the KEKW
+                DAO. Let's make KEKW get further.
+              </p>
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6 wow" data-splitting>
+              <small>04</small>
+              <h6>METAVERSE</h6>
+              <p>
+                Powering the future of social relationships and entertainment.
+                Get into the Metaverse.
+              </p>
+            </div>
+            <!-- end col-3 -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </section>
+      <!-- end text-content-block -->
+      <section class="process wow" data-splitting>
+        <div class="container" style="padding-top: 150px;">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <span style="font-size: 4rem; font-family: 'Fjalla One';">
+                12B
+              </span>
+              <small>Supply</small>
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6">
+              <span style="font-size: 4rem; font-family: 'Fjalla One';">
+                +7k
+              </span>
+              <small>Holders</small>
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6">
+              <span style="font-size: 4rem; font-family: 'Fjalla One';">
+                35k
+              </span>
+              <small>Members</small>
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6">
+              <span style="font-size: 4rem; font-family: 'Fjalla One';">
+                +20
+              </span>
+              <small>Projects</small>
+            </div>
+            <!-- end col-3 -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </section>
+      <!-- end process -->
+      <section id="foundations" class="clients">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 wow" data-splitting>
+              <h3 class="section-title">
+                WE'VE COME A LONG
+                <br />
+                WAY, ALWAYS
+                <br />
+                ACCOMPANIED BY
+                <br />
+                THE BEST.
+              </h3>
+            </div>
+            <!-- end col-5 -->
+            <div class="col-lg-7">
+              <ul>
+                <li class="reveal-effect masker wow">
+                  <img src="images/icons/bitrue.png" alt="Image" />
+                </li>
+                <li class="reveal-effect masker wow">
+                  <img src="images/icons/metaplex.png" alt="Image" />
+                </li>
+                <li class="reveal-effect masker wow">
+                  <img src="images/icons/serum.png" alt="Image" />
+                </li>
+                <li class="reveal-effect masker wow">
+                  <img src="images/icons/solana.png" alt="Image" />
+                </li>
+                <li class="reveal-effect masker wow">
+                  <img src="images/icons/dexlab.png" alt="Image" />
+                </li>
+                <li class="reveal-effect masker wow">
+                  <img src="images/icons/raydium.png" alt="Image" />
+                </li>
+              </ul>
+            </div>
+            <!-- end col-7 -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </section>
+      <!-- end clients -->
+    </main>
+    <!-- end main -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <ul>
+              <li>
+                <a href="https://twitter.com/kekwcoin">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://discord.com/invite/XMu4SVK54K">
+                  <i class="fab fa-discord"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/kekwcoinofficial">
+                  <i class="fab fa-telegram"></i>
+                </a>
+              </li>
+            </ul>
+            <h6>LET’S MEET AND INTRODUCE YOU TO THE KEKW WORLD</h6>
+            <h3>
+              Do you want to know more about us and access
+              <br />
+              the KEKW community?
+            </h3>
+            <a href="https://discord.com/invite/XMu4SVK54K" class="link">
+              Get in touch
+            </a>
+          </div>
+          <!-- end col-12 -->
+          <div class="col-12">
+            <div class="footer-bar">
+              <span class="copyright">© 2021 KEKW | NFT Community Hub</span>
+              <span class="creation">
+                Powered by Solana
+              </span>
+            </div>
+            <!-- end footer-bar -->
+          </div>
+          <!-- end col-12 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </footer>
+    <!-- end footer -->
 
-    <div class="preloader"><span class="spinner spinner-round"></span></div>
-
-    <!-- JavaScript -->
-    <script src="assets/js/jquery.bundle.js?ver=1930"></script>
-    <script src="assets/js/scripts.js?ver=1930"></script>
-    <script src="assets/js/charts.js"></script>
-</body>
-
+    <!-- JS FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/splitting.min.js"></script>
+    <script src="js/odometer.min.js"></script>
+    <script src="js/fancybox.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
