@@ -1,4 +1,11 @@
-import { ENV, Strategy, TokenListProvider } from "@solana/spl-token-registry";
+import {
+  ENV,
+  Strategy,
+  TokenInfo,
+  TokenList,
+  TokenListProvider,
+} from "@solana/spl-token-registry";
+import axios from "axios";
 import { mkdir, stat, writeFile } from "fs/promises";
 import { createWriteStream } from "fs";
 import { IncomingMessage } from "http";
@@ -12,12 +19,32 @@ process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0";
 
 const limit = pLimit(10);
 
+const dedupeTokens = (tokens: TokenInfo[]): TokenInfo[] => {
+  const seen = new Set<string>();
+  return tokens.filter((token) => {
+    const tokenID = `${token.address}_${token.chainId}`;
+    if (seen.has(tokenID)) {
+      return false;
+    } else {
+      seen.add(tokenID);
+      return true;
+    }
+  });
+};
+
 /**
  * @param forceUpdate Forces an update of token icons.
  */
 const main = async (forceUpdate: boolean = false) => {
   const tokens = await new TokenListProvider().resolve(Strategy.GitHub);
   const tokenList = tokens.getList();
+  const lpTokenList = await axios.get<TokenList>(
+    "https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/lists/saber-lp.mainnet-beta.json"
+  );
+  const allTokensList = dedupeTokens([
+    ...tokenList,
+    ...lpTokenList.data.tokens,
+  ]);
 
   await Promise.all(
     [ENV.MainnetBeta, ENV.Testnet, ENV.Devnet].map((env) =>
@@ -32,7 +59,7 @@ const main = async (forceUpdate: boolean = false) => {
   };
 
   await Promise.all(
-    tokenList.map(async (token) => {
+    allTokensList.map(async (token) => {
       await limit(async () => {
         if (!token.logoURI) {
           return;

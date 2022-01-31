@@ -33,6 +33,7 @@
   "devDependencies": {
     "@types/follow-redirects": "^1.13.1",
     "@types/node": "^16.11.9",
+    "axios": "^0.25.0",
     "follow-redirects": "^1.14.5",
     "p-limit": "3",
     "prettier": "^2.4.1",
