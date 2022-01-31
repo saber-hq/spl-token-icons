@@ -20,7 +20,7 @@ yarn add @saberhq/spl-token-icons
 ```
 
 ```jsx
-import { getTokenInfo } from "@saberhq/spl-token-icons";
+import { getTokenIcon } from "@saberhq/spl-token-icons";
 
 const icon = getTokenIcon({ address: "...", chainId: "..." });
 ```
