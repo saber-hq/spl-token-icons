@@ -1,8 +1,10 @@
 import type { TokenInfo } from "@solana/spl-token-registry";
 import icons from "./icons.json";
 
-export const PREFIX =
+export const PREFIX_OLD =
   "https://spl-token-icons.static-assets.ship.capital/icons";
+
+export const PREFIX = `https://cdn.jsdelivr.net/gh/saber-hq/spl-token-icons@master/icons`;
 
 const iconsMap: Record<string, Record<string, string>> = icons;
 
