@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#206bc4">
+<meta name="msapplication-TileColor" content="#206bc4">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="6AJLQG2VvZ" />
+<meta property="og:type" content="Image" />
+<meta property="og:url" content="https://yourimageshare.com/ib/6AJLQG2VvZ" />
+<meta property="og:image" content="https://yourimageshare.com/ib/6AJLQG2VvZ.png" />
+
+<meta name="csrf-token" content="ZbuRwAmwYmBXJzVSuqmY5yRFmB9tvrBMNSORdJMG">
+<title>YourImageShare — Image - 6AJLQG2VvZ</title>
+<link href="https://yourimageshare.com/images/main/favicon.png" rel="shortcut icon">
+<link href="https://yourimageshare.com/images/main/favicon.png" type="image/png" rel="icon" sizes="192x192">
+<link rel="apple-touch-icon" href="https://yourimageshare.com/images/main/favicon.png" sizes="180x180">
+<link href="https://yourimageshare.com/assets/libs/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+
+<link rel="preload" as="style"  href="https://yourimageshare.com/assets/fontawesome/font-awesome.min.css"/>
+<link href="https://yourimageshare.com/assets/fontawesome/font-awesome.min.css" rel="stylesheet"/>
+<link href="https://yourimageshare.com/assets/fontawesome/font-awesome-animation.min.css" rel="stylesheet"/>
+<link href="https://yourimageshare.com/assets/libs/dropzone/dropzone.min.css" rel="stylesheet"/>
+
+<link rel="preload" as="style"  href="https://yourimageshare.com/assets/css/app.css"/>
+<link href="https://yourimageshare.com/assets/css/app.css" rel="stylesheet"/>
+<link href="https://yourimageshare.com/assets/css/app-vendors.css" rel="stylesheet"/>
+<link href="https://yourimageshare.com/assets/css/ibob.css" rel="stylesheet"/>
+  
+
+    </head>
+               <body   class="bg-white" >
+         <header class="navbar navbar-expand-md navbar-light d-print-none  sticky-top ">
+      <div class="container-fluid">
+          
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+                  <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal  me-md-3 "><span style="display:none"></span>
+            <a class="logo"href="https://yourimageshare.com">
+            <img src="/images/main/logo-only.png" alt="YourImageShare" class="mLogo" style="display:none">
+            <span class="tLogo" style="color:#206bc4;font-size:2em;	font-family: 'Pacifico', cursive;">YourImageShare.com</span>
+            </a>          </h1>
+         <div class="navbar-nav flex-row order-md-last">
+                        <li class="nav-item pe-0 pe-md-2 d-mobile-none">
+               <a href="https://yourimageshare.com/login" class="btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                     <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+                     <path d="M20 12h-13l3 -3m0 6l-3 -3" />
+                  </svg>
+                  Sign in
+               </a>
+            </li>
+                        <li class="nav-item d-mobile-none">
+               <a href="https://yourimageshare.com/register" class="btn btn-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                     <circle cx="9" cy="7" r="4" />
+                     <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                     <path d="M16 11h6m-3 -3v6" />
+                  </svg>
+                  Create account
+               </a>
+            </li>
+                        <li class="nav-item pe-1 d-md-none mobile-icon">
+               <a href="https://yourimageshare.com/login">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                     <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+                     <path d="M20 12h-13l3 -3m0 6l-3 -3" />
+                  </svg>
+               </a>
+            </li>
+                     </div>
+          
+         <div class="collapse navbar-collapse order-md-first" id="navbar-menu">
+            <div class="d-flex flex-column flex-md-row flex-fill align-items-stretch align-items-md-center">
+               <ul class="navbar-nav">
+                  <li class="nav-item ">
+                     <a class="nav-link" href="https://yourimageshare.com"><span class="nav-link-icon d-md-none d-lg-inline-block"><i class="fa fa-home"></i></span><span class="nav-link-title">Home</span></a>
+                  </li>
+                  
+                  <li class="nav-item dropdown ">
+                     <a class="nav-link dropdown-toggle" href="#navbar-third" data-bs-toggle="dropdown" role="button" aria-expanded="false"><span class="nav-link-icon d-md-none d-lg-inline-block"><i class="fa fa-info-circle"></i></span>
+                     <span class="nav-link-title d-lg-none d-xl-inline-block">About</span>
+                     </a>
+                     <div class="dropdown-menu">
+                         <a class="dropdown-item    " href="https://yourimageshare.com/about">About us</a>  
+
+                                                         
+                       <!--contact-->                           
+                                 
+                                               
+                                 
+                                               
+                                 
+                                               <a class="dropdown-item  Frequently asked questions " href="https://yourimageshare.com/about/faqs">Frequently asked questions</a>
+                       
+                         
+                        
+                                                
+                                 
+                                               
+                                 
+                                               <a class="dropdown-item   Get Started " href="https://yourimageshare.com/about/get-started"> Get Started</a>
+                       
+                         
+                        
+                                                
+                                 
+                                               <a class="dropdown-item  Privacy Policy " href="https://yourimageshare.com/about/privacy-policy">Privacy Policy</a>
+                       
+                         
+                        
+                                                
+                                 
+                                               <a class="dropdown-item  Terms and Conditions " href="https://yourimageshare.com/about/terms-and-conditions">Terms and Conditions</a>
+                       
+                         
+                        
+                                                
+                                                                     </div>
+                  </li>      
+                  
+                    <li class="nav-item  ">
+                        <a class="nav-link" title="Recent Uploads" href="https://yourimageshare.com/recent"><span class="nav-link-icon d-md-none d-lg-inline-block"><i class="fa fa-clock-o"></i></span><span class="nav-link-title">Recent</span></a>
+                    </li>
+                    <li class="nav-item  ">
+                      <a class="nav-link" href="https://yourimageshare.com/contact"><span class="nav-link-icon d-md-none d-lg-inline-block"><i class="fa fa-envelope-o"></i></span><span class="nav-link-title">Contact</span></a>
+                    </li>
+                   
+                  <!--<li class="nav-item">
+                     <a class="nav-link" href="https://yourimageshare.com">
+                        <span class="nav-link-icon d-md-none d-lg-inline-block">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1" />
+                              <polyline points="9 15 12 12 15 15" />
+                              <line x1="12" y1="12" x2="12" y2="21" />
+                           </svg>
+                        </span>
+                        <span class="nav-link-title">Upload</span>
+                     </a>
+                  </li>
+                  -->
+                                 </ul>
+            </div>
+         </div>
+               </div>
+   </header> 
+      <div class="view_image_page mt-3">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-lg-8 m-auto text-center" style="  position: relative;">
+             
+              
+             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1452679217373991"crossorigin="anonymous"></script>
+            <img src="https://yourimageshare.com/ib/6AJLQG2VvZ.png" class="img-fluid"> 
+            <div class="adcont" style="text-align:center;padding:1em">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1452679217373991"  crossorigin="anonymous"></script>
+                <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"  data-ad-client="ca-pub-1452679217373991"  data-ad-slot="7559986701"></ins>
+                <script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+           
+                                 </div>
+      </div>
+   </div> 
+   <div class="view_image_footer mt-3">
+      <div class="container-fluid">
+         <div class="page-header py-3">
+            <div class="row align-items-center">
+               <div class="col-auto">
+                   
+                  <span class="avatar avatar-md" style="background-image: url(https://yourimageshare.com/path/cdn/avatars/default.png)"></span>
+                                 </div>
+               <div class="col">
+                   
+                  <h2 class="page-title">Anonymous</h2>
+                                    <div class="page-subtitle">
+                     <div class="row">
+                        <div class="col-auto d-none d-md-flex">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <rect x="4" y="5" width="16" height="16" rx="2" />
+                              <line x1="16" y1="3" x2="16" y2="7" />
+                              <line x1="8" y1="3" x2="8" y2="7" />
+                              <line x1="4" y1="11" x2="20" y2="11" />
+                              <rect x="8" y="15" width="2" height="2" />
+                           </svg>
+                           <span class="text-reset">24/04/22  22:05 PM</span>
+                        </div>
+                        <div class="col-auto">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <circle cx="12" cy="12" r="2" />
+                              <path d="M22 12c-2.667 4.667 -6 7 -10 7s-7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7" />
+                           </svg>
+                           <span class="text-reset">23</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="col-auto d-none d-md-flex">
+                                   
+                                  
+                                        <a    data-tooltip="If you consider this image is inappropriate, you can report it by clicking here. We will analyze and it take appropriate actions. "   data-tooltip-location="bottom"  onclick="location.href = 'https://yourimageshare.com/ib/report/6AJLQG2VvZ';"  class="btn btn-primary  ms-3"> <i style="margin-right:5px" class="fa fa-exclamation-circle"></i> Report</a>
+                     
+                     
+                      
+                  <a href="/ib/download/6AJLQG2VvZ" class="btn btn-primary  ms-3">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M19 18a3.5 3.5 0 0 0 0 -7h-1a5 4.5 0 0 0 -11 -2a4.6 4.4 0 0 0 -2.1 8.4" />
+                        <line x1="12" y1="13" x2="12" y2="22" />
+                        <polyline points="9 19 12 22 15 19" />
+                     </svg>
+                     Download
+                  </a>
+                  
+                  
+                  <a id="share" href="javascript:void(0)" class="btn btn-primary  ms-3">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="6" cy="12" r="3" />
+                        <circle cx="18" cy="6" r="3" />
+                        <circle cx="18" cy="18" r="3" />
+                        <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                        <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                     </svg>
+                     Share
+                  </a>
+                   
+                
+               </div>
+               <div class="col-auto d-flex d-md-none">
+                  <a href="ib/download/https://yourimageshare.com/admin/ib/download/6AJLQG2VvZ" class="btn ms-3">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="icon m-0" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M19 18a3.5 3.5 0 0 0 0 -7h-1a5 4.5 0 0 0 -11 -2a4.6 4.4 0 0 0 -2.1 8.4" />
+                        <line x1="12" y1="13" x2="12" y2="22" />
+                        <polyline points="9 19 12 22 15 19" />
+                     </svg>
+                  </a>
+                  <a id="share-mobile" href="javascript:void(0)" class="btn btn-danger ms-3">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="icon m-0" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="6" cy="12" r="3" />
+                        <circle cx="18" cy="6" r="3" />
+                        <circle cx="18" cy="18" r="3" />
+                        <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                        <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                     </svg>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="share-buttons">
+            <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https://yourimageshare.com/ib/6AJLQG2VvZ" target="_blank" rel="noopener" aria-label="">
+               <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small">
+                  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/>
+                     </svg>
+                  </div>
+               </div>
+            </a>
+            <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=6AJLQG2VvZ&amp;url=https://yourimageshare.com/ib/6AJLQG2VvZ" target="_blank" rel="noopener" aria-label="">
+               <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+                  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/>
+                     </svg>
+                  </div>
+               </div>
+            </a>
+            <a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=6AJLQG2VvZ&amp;caption=6AJLQG2VvZ&amp;content=https://yourimageshare.com/ib/6AJLQG2VvZ&amp;canonicalUrl=https://yourimageshare.com/ib/6AJLQG2VvZ&amp;shareSource=tumblr_share_button" target="_blank" rel="noopener" aria-label="">
+               <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
+                  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M13.5.5v5h5v4h-5V15c0 5 3.5 4.4 6 2.8v4.4c-6.7 3.2-12 0-12-4.2V9.5h-3V6.7c1-.3 2.2-.7 3-1.3.5-.5 1-1.2 1.4-2 .3-.7.6-1.7.7-3h3.8z"/>
+                     </svg>
+                  </div>
+               </div>
+            </a>
+            <a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https://yourimageshare.com/ib/6AJLQG2VvZ&amp;media=https://yourimageshare.com/ib/6AJLQG2VvZ&amp;description=6AJLQG2VvZ" target="_blank" rel="noopener" aria-label="">
+               <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small">
+                  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12.14.5C5.86.5 2.7 5 2.7 8.75c0 2.27.86 4.3 2.7 5.05.3.12.57 0 .66-.33l.27-1.06c.1-.32.06-.44-.2-.73-.52-.62-.86-1.44-.86-2.6 0-3.33 2.5-6.32 6.5-6.32 3.55 0 5.5 2.17 5.5 5.07 0 3.8-1.7 7.02-4.2 7.02-1.37 0-2.4-1.14-2.07-2.54.4-1.68 1.16-3.48 1.16-4.7 0-1.07-.58-1.98-1.78-1.98-1.4 0-2.55 1.47-2.55 3.42 0 1.25.43 2.1.43 2.1l-1.7 7.2c-.5 2.13-.08 4.75-.04 5 .02.17.22.2.3.1.14-.18 1.82-2.26 2.4-4.33.16-.58.93-3.63.93-3.63.45.88 1.8 1.65 3.22 1.65 4.25 0 7.13-3.87 7.13-9.05C20.5 4.15 17.18.5 12.14.5z"/>
+                     </svg>
+                  </div>
+               </div>
+            </a>
+            <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://yourimageshare.com/ib/6AJLQG2VvZ&amp;title=6AJLQG2VvZ&amp;summary=6AJLQG2VvZ&amp;source=https://yourimageshare.com/ib/6AJLQG2VvZ" target="_blank" rel="noopener" aria-label="">
+               <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small">
+                  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/>
+                     </svg>
+                  </div>
+               </div>
+            </a>
+            <a class="resp-sharing-button__link" href="whatsapp://send?text=6AJLQG2VvZ%20https://yourimageshare.com/ib/6AJLQG2VvZ" target="_blank" rel="noopener" aria-label="">
+               <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small">
+                  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z"/>
+                     </svg>
+                  </div>
+               </div>
+            </a>
+            <a class="resp-sharing-button__link" href="http://vk.com/share.php?title=6AJLQG2VvZ&amp;url=https://yourimageshare.com/ib/6AJLQG2VvZ" target="_blank" rel="noopener" aria-label="">
+               <div class="resp-sharing-button resp-sharing-button--vk resp-sharing-button--small">
+                  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M21.547 7h-3.29a.743.743 0 0 0-.655.392s-1.312 2.416-1.734 3.23C14.734 12.813 14 12.126 14 11.11V7.603A1.104 1.104 0 0 0 12.896 6.5h-2.474a1.982 1.982 0 0 0-1.75.813s1.255-.204 1.255 1.49c0 .42.022 1.626.04 2.64a.73.73 0 0 1-1.272.503 21.54 21.54 0 0 1-2.498-4.543.693.693 0 0 0-.63-.403h-2.99a.508.508 0 0 0-.48.685C3.005 10.175 6.918 18 11.38 18h1.878a.742.742 0 0 0 .742-.742v-1.135a.73.73 0 0 1 1.23-.53l2.247 2.112a1.09 1.09 0 0 0 .746.295h2.953c1.424 0 1.424-.988.647-1.753-.546-.538-2.518-2.617-2.518-2.617a1.02 1.02 0 0 1-.078-1.323c.637-.84 1.68-2.212 2.122-2.8.603-.804 1.697-2.507.197-2.507z"/>
+                     </svg>
+                  </div>
+               </div>
+            </a>
+            <a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=6AJLQG2VvZ&amp;url=https://yourimageshare.com/ib/6AJLQG2VvZ" target="_blank" rel="noopener" aria-label="">
+               <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small">
+                  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M.707 8.475C.275 8.64 0 9.508 0 9.508s.284.867.718 1.03l5.09 1.897 1.986 6.38a1.102 1.102 0 0 0 1.75.527l2.96-2.41a.405.405 0 0 1 .494-.013l5.34 3.87a1.1 1.1 0 0 0 1.046.135 1.1 1.1 0 0 0 .682-.803l3.91-18.795A1.102 1.102 0 0 0 22.5.075L.706 8.475z"/>
+                     </svg>
+                  </div>
+               </div>
+            </a>
+         </div>
+      
+         <div class="image_inputs">
+            <h2>Direct link</h2>
+            <div class="input-group form-group">
+               <input style="display:block!important"  class="form-control sharelink" name="sharelink" id="sharelink" value="https://yourimageshare.com/ib/6AJLQG2VvZ.png" readonly>
+               <button id="copy" class="copy-btn btn btn-primary " type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                     <rect x="8" y="8" width="12" height="12" rx="2" />
+                     <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
+                  </svg>
+                  <span class="copy">Copy</span>
+                  <span class="copied d-none">Copied</span>
+               </button>
+            </div>
+            
+               <h2>HTML</h2>
+                <div class="input-group form-group">
+                <textarea class="form-control sharelink" style="display:block!important" name="html" id="html" cols="30" rows="1" readonly><a href="https://yourimageshare.com/ib/6AJLQG2VvZ"><img src="https://yourimageshare.com/ib/6AJLQG2VvZ.png" alt="youtimageshare.com - 6AJLQG2VvZ"/></a></textarea>
+                <button   onclick="copyHTML()"  class="copy-btn btn btn-primary " type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                     <rect x="8" y="8" width="12" height="12" rx="2" />
+                     <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
+                  </svg>
+                  <span class="copy">Copy</span>
+                  <span class="copied d-none">Copied</span>
+               </button>
+               </div>
+                <h2>BBCode</h2>
+                 <div class="input-group form-group">
+               <textarea class="form-control sharelink" style="display:block!important"  name="BBCode" id="BBCode" cols="30" rows="1" readonly>[url=https://yourimageshare.com/ib/6AJLQG2VvZ][img]https://yourimageshare.com/ib/6AJLQG2VvZ.png[/img][/url]</textarea>
+               <button  onclick="copyBB()"   class="copy-btn btn btn-primary " type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                     <rect x="8" y="8" width="12" height="12" rx="2" />
+                     <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
+                  </svg>
+                  <span class="copy">Copy</span>
+                  <span class="copied d-none">Copied</span>
+               </button>
+               <script>
+               
+                   function copyHTML() {  var copyText = document.getElementById('html');copyText.select();copyText.setSelectionRange(0, 99999);document.execCommand('copy')};
+                   function copyBB() {  var copyText = document.getElementById('BBCode');  copyText.select();  copyText.setSelectionRange(0, 99999);  document.execCommand('copy')};
+               </script>
+            </div>
+            
+<h2>Comments</h2> 
+<div style="background:#fff;padding:1em;position:relative">
+    <div  id="cusdis_thread"  data-host="https://cusdis.com"  data-app-id="8773f0f2-d72f-4b2e-bb25-b7930e6d4601"  data-page-id="6AJLQG2VvZ"  data-page-url="https://yourimageshare.com/ib/6AJLQG2VvZ"  data-page-title="Image 6AJLQG2VvZ"></div>
+    <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+    <div style="position: absolute;bottom: 0;left: 0;width: 100%;background: #fff;height: 3em;"class="overlay"></div>
+</div>
+ 
+     
+        <div class="adcont" style="text-align:center;padding:1em">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1452679217373991"   crossorigin="anonymous"></script>
+            <ins class="adsbygoogle"     style="display:block"    data-ad-client="ca-pub-1452679217373991"    data-ad-slot="9283846504"    data-ad-format="auto"     data-full-width-responsive="true"></ins>
+            <script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+            </div>
+      </div>
+   </div>
+</div> 
+<style>/* 
+  You want a simple and fancy tooltip?
+  Just copy all [data-tooltip] blocks:
+*/
+[data-tooltip] {
+  position: relative;
+  z-index: 10;
+}
+
+/* Positioning and visibility settings of the tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  left: 50%;
+  bottom: calc(100% + 5px); /* 5px is the size of the arrow */
+  pointer-events: none;
+  transition: 0.2s;
+  will-change: transform;
+}
+
+/* The actual tooltip with a dynamic width */
+[data-tooltip]:before {
+  content: attr(data-tooltip);
+  padding: 10px 18px;
+  min-width: 50px;
+  max-width: 300px;
+  width: max-content;
+  width: -moz-max-content;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: rgba(59, 72, 80, 0.9);
+  background-image: linear-gradient(30deg,
+    rgba(59, 72, 80, 0.44),
+    rgba(59, 68, 75, 0.44),
+    rgba(60, 82, 88, 0.44));
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+  white-space: pre-wrap;
+  transform: translate(-50%, -5px) scale(0.5);
+}
+
+/* Tooltip arrow */
+[data-tooltip]:after {
+  content: '';
+  border-style: solid;
+  border-width: 5px 5px 0px 5px; /* CSS triangle */
+  border-color: rgba(55, 64, 70, 0.9) transparent transparent transparent;
+  transition-duration: 0s; /* If the mouse leaves the element, 
+                              the transition effects for the 
+                              tooltip arrow are "turned off" */
+  transform-origin: top;   /* Orientation setting for the
+                              slide-down effect */
+  transform: translateX(-50%) scaleY(0);
+}
+
+/* Tooltip becomes visible at hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+/* Scales from 0.5 to 1 -> grow effect */
+[data-tooltip]:hover:before {
+  transition-delay: 0.3s;
+  transform: translate(-50%, -5px) scale(1);
+}
+/* 
+  Arrow slide down effect only on mouseenter (NOT on mouseleave)
+*/
+[data-tooltip]:hover:after {
+  transition-delay: 0.5s; /* Starting after the grow effect */
+  transition-duration: 0.2s;
+  transform: translateX(-50%) scaleY(1);
+}
+/*
+  That's it for the basic tooltip.
+
+  If you want some adjustability
+  here are some orientation settings you can use:
+*/
+
+/* LEFT */
+/* Tooltip + arrow */
+[data-tooltip-location="left"]:before,
+[data-tooltip-location="left"]:after {
+  left: auto;
+  right: calc(100% + 5px);
+  bottom: 50%;
+}
+
+/* Tooltip */
+[data-tooltip-location="left"]:before {
+  transform: translate(-5px, 50%) scale(0.5);
+}
+[data-tooltip-location="left"]:hover:before {
+  transform: translate(-5px, 50%) scale(1);
+}
+
+/* Arrow */
+[data-tooltip-location="left"]:after {
+  border-width: 5px 0px 5px 5px;
+  border-color: transparent transparent transparent rgba(55, 64, 70, 0.9);
+  transform-origin: left;
+  transform: translateY(50%) scaleX(0);
+}
+[data-tooltip-location="left"]:hover:after {
+  transform: translateY(50%) scaleX(1);
+}
+
+
+
+/* RIGHT */
+[data-tooltip-location="right"]:before,
+[data-tooltip-location="right"]:after {
+  left: calc(100% + 5px);
+  bottom: 50%;
+}
+
+[data-tooltip-location="right"]:before {
+  transform: translate(5px, 50%) scale(0.5);
+}
+[data-tooltip-location="right"]:hover:before {
+  transform: translate(5px, 50%) scale(1);
+}
+
+[data-tooltip-location="right"]:after {
+  border-width: 5px 5px 5px 0px;
+  border-color: transparent rgba(55, 64, 70, 0.9) transparent transparent;
+  transform-origin: right;
+  transform: translateY(50%) scaleX(0);
+}
+[data-tooltip-location="right"]:hover:after {
+  transform: translateY(50%) scaleX(1);
+}
+
+
+
+/* BOTTOM */
+[data-tooltip-location="bottom"]:before,
+[data-tooltip-location="bottom"]:after {
+  top: calc(100% + 5px);
+  bottom: auto;
+}
+
+[data-tooltip-location="bottom"]:before {
+  transform: translate(-50%, 5px) scale(0.5);
+}
+[data-tooltip-location="bottom"]:hover:before {
+  transform: translate(-50%, 5px) scale(1);
+}
+
+[data-tooltip-location="bottom"]:after {
+  border-width: 0px 5px 5px 5px;
+  border-color: transparent transparent rgba(55, 64, 70, 0.9) transparent;
+  transform-origin: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+@media (max-width: 750px) {
+ 
+  
+  [data-tooltip]:after {
+    bottom: calc(100% + 3px);
+  }
+  [data-tooltip]:after {
+    border-width: 7px 7px 0px 7px;
+  }
+}</style>
+   <footer class="footer footer-transparent d-print-none">
+   <div class=" container-fluid ">
+      <div class="text-center"> 
+         <ul class="list-inline list-inline-dots mb-0 ms-0" style="margin:1em">
+            <li class="list-inline-item">
+                © <script>document.write(new Date().getFullYear())</script>
+               <a href="https://yourimageshare.com" class="link-secondary">yourimageshare.com</a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</footer>
+     <script src="https://assets.exypnos.digital/js/no-frames.js"></script>
+  <script src="https://assets.exypnos.digital/js/no-copy.js"></script>
+<script src="https://yourimageshare.com/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://yourimageshare.com/assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="https://yourimageshare.com/assets/libs/sweetalert/sweetalert.min.js"></script>
+<script src="https://yourimageshare.com/assets/js/app.js"></script>
+<script src="https://yourimageshare.com/assets/js/ib.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?" async defer></script>
+
+ 
+<script src="https://app.enzuzo.com/apps/enzuzo/static/js/__enzuzo-cookiebar.js?uuid=3800c5d6-a565-11ec-8e20-fbc6af82ad3f"></script>
+   </body>
+</html>
