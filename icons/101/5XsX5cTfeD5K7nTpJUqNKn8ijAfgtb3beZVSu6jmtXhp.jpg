@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="preconnect" href="https://github.com"><link rel="dns-prefetch" href="https://github.vscode-unpkg.net"><link rel="dns-prefetch" href="https://vscodeweb.azureedge.net"><link rel="dns-prefetch" href="https://main.vscode-cdn.net"><link rel="dns-prefetch" href="https://marketplace.visualstudio.com"><link rel="prefetch" href="/primer.css"><link rel="prefetch" href="/splash-screen-styles.css"><title>GitHub web editor</title></head><body><script>(() => {
+            const AUTH_URL = 'https://github.com/auth/github_editor';
+
+            const params = new URLSearchParams();
+            params.append('redirect', `${location.pathname}${location.search}${location.hash}`);
+
+            if (location.hostname !== 'github.dev') {
+                params.append('host', location.hostname);
+            }
+
+            location.href = `${AUTH_URL}?${params.toString()}`;
+        })();</script></body></html>
