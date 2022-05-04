@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="2052.8191"
+   height="2167.5857"
+   viewBox="0 0 2052.8191 2167.5857"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <linearGradient
+       id="linearGradient124473">
+      <stop
+         style="stop-color:#005d80;stop-opacity:1;"
+         offset="0"
+         id="stop124469" />
+      <stop
+         style="stop-color:#320080;stop-opacity:1"
+         offset="1"
+         id="stop124471" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient124473"
+       id="linearGradient124819"
+       x1="1022.2515"
+       y1="1256.2686"
+       x2="2435.7517"
+       y2="473.79785"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient124473"
+       id="linearGradient124963"
+       x1="1375.0731"
+       y1="541.57922"
+       x2="2805.8462"
+       y2="1206.7261"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient124473"
+       id="linearGradient124971"
+       x1="1410.5424"
+       y1="1178.9596"
+       x2="2822.6445"
+       y2="1283.7109"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.6754321,0,0,0.6754321,1422.897,198.3618)" />
+    <linearGradient
+       xlink:href="#linearGradient124473"
+       id="linearGradient124979"
+       x1="1456.3579"
+       y1="1462.368"
+       x2="3230.1404"
+       y2="962.59344"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-218.31487)" />
+  </defs>
+  <g
+     id="g8"
+     transform="translate(-700.38233,132.37819)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:url(#linearGradient124819);stroke-width:75.6704;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="frame"
+       width="1343.1488"
+       height="1457.9153"
+       x="1055.2175"
+       y="222.45702" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:287.579px;line-height:1.25;font-family:sans-serif;text-align:end;text-anchor:end;fill:#005d80;fill-opacity:1;stroke:none;stroke-width:7.18943"
+       x="2345.6067"
+       y="485.50156"
+       id="inf"><tspan
+         id="tspan61870"
+         x="2345.6067"
+         y="485.50156"
+         style="fill:#005d80;fill-opacity:1;stroke:none;stroke-width:7.18943">∞</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:661.596px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:url(#linearGradient124963);fill-opacity:1;stroke:none;stroke-width:1.44243"
+       x="1763.6312"
+       y="1018.2179"
+       id="hu"
+       transform="scale(0.9799603,1.0204495)"><tspan
+         id="tspan13026"
+         x="1763.6312"
+         y="1018.2179"
+         style="text-align:center;text-anchor:middle;fill:url(#linearGradient124963);fill-opacity:1;stroke-width:1.44243">Hu</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:143.448px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:url(#linearGradient124971);fill-opacity:1;stroke:none;stroke-width:3.58619"
+       x="2620.2117"
+       y="1045.9369"
+       id="human"
+       transform="scale(0.66120694,1.5123858)"><tspan
+         id="tspan24917"
+         x="2620.2117"
+         y="1045.9369"
+         style="text-align:center;text-anchor:middle;fill:url(#linearGradient124971);fill-opacity:1;stroke-width:3.58619">building the human chain</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:206.046px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:url(#linearGradient124979);fill-opacity:1;stroke:none;stroke-width:5.15112"
+       x="1838.3014"
+       y="1247.3599"
+       id="pop"
+       transform="scale(0.93296881,1.0718472)"><tspan
+         id="members"
+         x="1838.3014"
+         y="1247.3599"
+         style="fill:url(#linearGradient124979);fill-opacity:1;stroke-width:5.15112">11E+09</tspan></text>
+  </g>
+</svg>
