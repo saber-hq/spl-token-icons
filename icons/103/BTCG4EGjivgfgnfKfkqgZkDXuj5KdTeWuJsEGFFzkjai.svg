@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="86.014915mm"
+   height="86.111008mm"
+   viewBox="0 0 86.014913 86.111009"
+   version="1.1"
+   id="btcg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1031">
+    <linearGradient
+       xlink:href="#linearGradient23369"
+       id="linearGradient23371"
+       x1="294.14886"
+       y1="392.00464"
+       x2="296.08844"
+       y2="252.33362"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,-36.416937,-24.213111)" />
+    <linearGradient
+       id="linearGradient23369">
+      <stop
+         style="stop-color:#00ffff;stop-opacity:1"
+         offset="0"
+         id="stop23365" />
+      <stop
+         style="stop-color:#260e58;stop-opacity:1"
+         offset="0.93375683"
+         id="stop23535" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop23367" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16543">
+      <path
+         style="fill:none;stroke:#9f00ca;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 67.19538,67.322194 c -1.064039,4.755285 -5.049689,7.159475 -3.784629,10.737345 0.63659,1.800408 2.977419,3.196421 4.877451,3.005151 1.692458,-0.170371 3.403669,-1.818466 3.723889,-3.489061 0.71089,-3.70863 -2.98178,-5.068771 -4.816711,-10.253435 z"
+         id="path16545" />
+    </clipPath>
+  </defs>
+  <circle
+     style="display:none;fill:url(#linearGradient23371);fill-opacity:1;stroke-width:0.264583"
+     id="water-bg"
+     cx="43.03017"
+     cy="43.026844"
+     r="42.674618" />
+  <path
+     title="Greening cryptocurrencies"
+     style="display:inline;fill:#19ab3c;fill-opacity:1;stroke-width:0.264583"
+     d="m 37.6161,85.81582 c -6.779905,-0.77673 -14.490834,-3.88179 -20.377213,-8.205525 -2.786636,-2.04687 -7.2969515,-6.61823 -9.2883015,-9.41401 -3.798019,-5.33228 -6.530514,-12.07844 -7.637213,-18.85523 -0.41783,-2.55854 -0.41783,-10.141464 0,-12.7 C 2.9816055,20.302315 13.676516,7.512102 29.160102,2.142788 33.89344,0.501386 37.122,0 42.95806,0 c 4.401621,0 5.606261,0.09234 8.202081,0.628707 8.4344,1.742777 15.48937,5.412341 21.65337,11.262742 13.46803,12.782846 17.07845,33.492416 8.75538,50.221406 C 73.376411,78.579405 56.043151,87.92692 37.6161,85.81582 Z m 13.282281,-7.576585 c 7.24436,-1.78056 13.07709,-5.13551 18.13629,-10.43189 4.761249,-4.98445 7.801629,-10.78636 9.30822,-17.76268 0.6569,-3.04181 0.6569,-11.065416 0,-14.107217 C 75.999121,25.084526 69.187911,16.002476 59.652721,11.016019 54.405291,8.271856 48.976271,6.949421 42.95806,6.949421 c -9.99327,0 -18.97271,3.833775 -25.936843,11.073741 -11.7834385,12.250155 -13.4130515,30.902773 -3.937505,45.068863 3.233473,4.8341 8.128545,9.24234 13.166759,11.85727 3.26562,1.69492 5.793415,2.60327 9.431549,3.38919 2.60577,0.5629 3.43662,0.61958 7.9375,0.54146 3.986981,-0.0692 5.492971,-0.20176 7.278861,-0.64071 z M 33.16848,67.338095 v -3.43422 l -5.445631,-0.0715 -5.445628,-0.0715 -0.04448,-2.44748 -0.04447,-2.44748 1.852083,-10e-4 c 2.534149,-0.002 3.78315,-0.38203 4.176601,-1.27113 0.354701,-0.80153 0.6247,-23.874114 0.318704,-27.234542 -0.25931,-2.84771 -0.536017,-3.088626 -3.677883,-3.202162 l -2.537213,-0.09179 V 24.57729 22.089289 h 5.423959 5.423958 v -3.439901 -3.439583 l 2.71198,-5.29e-4 2.71198,-5.29e-4 -0.0809,3.440046 -0.0809,3.440046 h 2.92512 2.92513 v -3.439583 -3.439583 h 2.63815 2.63816 l 0.0738,3.505729 0.0738,3.505729 1.64862,0.181853 c 4.91705,0.542378 8.20459,2.249808 9.60059,4.986187 0.75901,1.487792 1.132509,4.337563 0.82154,6.268453 -0.579841,3.600487 -2.766361,6.054365 -6.580651,7.385309 -0.76398,0.266584 -1.38906,0.556866 -1.38906,0.645073 0,0.08821 0.65135,0.306144 1.44744,0.484299 3.38566,0.75768 6.26088,2.87915 7.50834,5.54001 0.64625,1.37844 0.70151,1.76728 0.70151,4.9359 0,3.22286 -0.0462,3.53363 -0.733019,4.93223 -0.81388,1.65731 -2.47675,3.33626 -4.149511,4.18964 -1.42137,0.72513 -4.68416,1.53246 -7.10128,1.7571 l -1.90682,0.17736 v 3.53388 3.53388 h -2.64583 -2.645831 v -3.43958 -3.43959 h -2.92513 -2.92512 l 0.0809,3.44005 0.0809,3.44005 -2.71198,-5.3e-4 -2.71198,-4e-4 z m 15.560041,-9.11397 c 2.94715,-0.93622 4.28862,-3.05206 4.2779,-6.74739 -0.0124,-4.26166 -1.92427,-6.03571 -7.15827,-6.6421 -1.371271,-0.15886 -3.564781,-0.25171 -4.874461,-0.20632 l -2.38125,0.0825 -0.0705,7.10824 -0.0705,7.10823 4.43615,-0.12846 c 3.124711,-0.0905 4.851451,-0.26038 5.840971,-0.57473 z M 44.98655,39.528593 c 4.738301,-0.659037 6.334871,-2.425946 6.136311,-6.790992 -0.077,-1.692018 -0.21971,-2.270482 -0.75192,-3.047169 -1.31427,-1.918009 -3.51116,-2.574377 -8.616531,-2.574377 h -3.29427 v 6.17361 c 0,3.395488 0.0794,6.252988 0.17639,6.35 0.27404,0.274037 4.05693,0.207867 6.35002,-0.111072 z"
+     id="bcoin" />
+  <text
+     xml:space="preserve"
+     style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5723px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#19ab3c;fill-opacity:1;stroke:none;stroke-width:0.264583"
+     x="41.952435"
+     y="120.4758"
+     id="wordmark"><tspan
+       id="tspan9304"
+       x="41.952435"
+       y="120.4758"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5723px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#19ab3c;fill-opacity:1;stroke-width:0.264583">greencoin</tspan></text>
+  <g
+     id="clickable">
+    <g
+       id="droplet"
+       transform="translate(-40.622387,-3.0283466)">
+      <path
+         style="opacity:0.943916;fill:#ffffff;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 67.195381,67.322195 c -1.06404,4.755285 -5.04969,7.159474 -3.78463,10.737345 0.63659,1.800407 2.977419,3.19642 4.87745,3.00515 1.692459,-0.17037 3.40367,-1.818465 3.723889,-3.489061 0.710891,-3.70863 -2.981779,-5.068771 -4.816709,-10.253434 z"
+         id="droplet-bg" />
+      <path
+         style="fill:#00f0ff;stroke:#75f0ff;stroke-width:0.098919;stroke-opacity:1"
+         d="m 63.211955,76.988023 c 0.02735,-1.668571 0.704654,-2.932205 1.716259,-4.644528 l 5.214808,0.101309 c 1.009557,1.376757 2.334045,3.475982 1.830549,5.264275 -0.47778,1.696955 -2.325468,3.381748 -4.088202,3.355292 -2.066904,-0.03102 -4.707292,-2.009492 -4.673414,-4.076348 z"
+         id="water" />
+      <rect
+         style="opacity:0.9625;fill:#003030;fill-opacity:1;stroke:#75f0ff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="gauge"
+         width="9.5723953"
+         height="14.329852"
+         x="62.77177"
+         y="66.863945"
+         clip-path="url(#clipPath16543)" />
+      <path
+         style="fill:none;stroke:#e6e6e6;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 67.195381,67.322195 c -1.06404,4.755285 -5.04969,7.159474 -3.78463,10.737345 0.63659,1.800407 2.977419,3.19642 4.87745,3.00515 1.692459,-0.17037 3.40367,-1.818465 3.723889,-3.489061 0.710891,-3.70863 -2.981779,-5.068771 -4.816709,-10.253434 z"
+         id="border" />
+    </g>
+    <g
+       id="CO2"
+       transform="matrix(0.73220239,0,0,0.73220239,-31.507465,20.999289)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;stroke-width:0.264583"
+         x="126.59117"
+         y="72.161278"
+         id="CO"><tspan
+           id="tspan49755"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;stroke-width:0.264583"
+           x="122.23175"
+           y="72.161278">CO</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="121.22851"
+         y="73.547539"
+         id="two"><tspan
+           id="tspan50749"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="122.28994"
+           y="73.547539">2</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:3.89216px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke-width:0.162174"
+       x="44.11414"
+       y="64.351524"
+       id="footprint"
+       transform="scale(0.9359227,1.0684643)"><tspan
+         id="co2weight"
+         style="font-size:3.89216px;text-align:start;text-anchor:start;stroke-width:0.162174"
+         x="54.505901"
+         y="64.351524">3tons</tspan></text>
+  </g>
+  <script
+     src="greencoin.js"
+     type="text/javascript"
+     id="dynascript">
+!(async function() {
+console.log('Running btc-g.js script from',location.pathname);
+// included: btc-g.js
+// script to update dynamic logo parts
+ const symb = 'btc-g';
+ const ticker = 'btcg';
+ const gw = 'https://ipfs.safewatch.care';
+ const immutable = 'QmXg18831o6mizuSeBpDEU7WZcpegVLdNd3goQYm6tB17S';
+ const mutable = 'QmUs6X2QHrPSAW9mZYtHGNCDjMDWTk7cg3EiEQ1Ao4PvL9';
+ let path = 'https://raw.githubusercontent.com/PurpleZone/NFTs/'+ticker
+     path = 'https://cdn.jsdelivr.net/gh/PurpleZone/NFTs@latest/'+ticker
+     //path = gw+'/ipfs/'+immutable;
+     //path = gw+'/ipns/'+mutable;
+     path = location.pathname.replace(/\/[^/]*$/,'');
+ console.log('path:',path);
+ fetch(path+`/${symb}.json`).then(resp => resp.json()).
+   then(cfg => {
+   console.log('cfg:',cfg);
+   document.getElementById('clickable').addEventListener('click',
+        function() { location.href = path+'/factsheet.html'; }
+        );
+     let p = 100.0;
+     if (typeof(cfg.level) != 'undefined') {
+       p =  parseFloat(cfg.level.replace('%$',''));
+       console.log('p:',p+'%');
+       let y =  68 + 13 * p / 100;
+       console.log('y:',y);
+       document.getElementById('gauge').setAttribute('y',y);
+       console.log('levelid:',document.getElementById('gauge'));
+     }
+     if (typeof(cfg.footprint) != 'undefined') {
+       let co2 = parseFloat(cfg.footprint.replace('kg','')) * (100 - p ) / 100;
+       document.getElementById('co2weight').innerHTML = `${co2}kg`;
+     }
+
+     return cfg;
+   }).
+   catch(console.error);
+
+})();
+ </script>
+</svg>
