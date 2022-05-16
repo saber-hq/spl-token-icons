@@ -27,7 +27,7 @@
     "icons:fetch": "ts-node scripts/fetchIcons.ts"
   },
   "dependencies": {
-    "@solana/spl-token-registry": "^0.2.3980",
+    "@solana/spl-token-registry": "^0.2.3981",
     "tslib": "^2.3.1"
   },
   "devDependencies": {
