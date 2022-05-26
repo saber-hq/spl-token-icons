@@ -14,10 +14,10 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
-"@solana/spl-token-registry@^0.2.4152":
-  version "0.2.4152"
-  resolved "https://registry.yarnpkg.com/@solana/spl-token-registry/-/spl-token-registry-0.2.4152.tgz#25e86867cffd97c8053a935b1e4a88bb7242b93a"
-  integrity sha512-9Qw456yBhsKQpS/NWMOw5/EL/PFiJbnoTAl7SOB4r5Lb9RV4Si1SdlNaJ8Sp59TWpruF3G5XVBdB9aWZFtmtiQ==
+"@solana/spl-token-registry@^0.2.4153":
+  version "0.2.4153"
+  resolved "https://registry.yarnpkg.com/@solana/spl-token-registry/-/spl-token-registry-0.2.4153.tgz#9b1e2c8c296bf0e514ffabfa4c9576f583d55d0e"
+  integrity sha512-CrrtTk+L+umLV1H6Y3Ea4RKJucd8W/hxppv7Lw/LV8+qVZCvzfYWD8fvvmrbMM/UkGXPy9ey/RqL6rlWy9/c1w==
   dependencies:
     cross-fetch "3.0.6"
 
